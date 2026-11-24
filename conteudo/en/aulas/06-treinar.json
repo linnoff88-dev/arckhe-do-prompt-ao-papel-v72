@@ -107,7 +107,7 @@
         }
       ],
       "volta": "Did any run fail? The failure goes back on the list and the cycle starts over",
-      "legenda": "In my case (Nei, from INEMA), a good part of the day works like this: I delegate, I give feedback, and each correction becomes a written rule. In a way, I train the agent as much as it trains me.",
+      "legenda": "In my case (Nei, from ARCKHÉ), a good part of the day works like this: I delegate, I give feedback, and each correction becomes a written rule. In a way, I train the agent as much as it trains me.",
       "rolagem": true,
       "rolagem_fim": {
         "titulo": "The whole training",

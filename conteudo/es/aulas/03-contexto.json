@@ -69,7 +69,7 @@
               "t": "la fecha"
             }
           ],
-          "detalhe": "Cada vez que algo sale mal, una línea nueva arriba de la lista: qué pasó y la regla que evita repetirlo. En mi caso (Nei, de INEMA), funciona así: el mismo error no vuelve, porque la corrección se convierte en una regla escrita."
+          "detalhe": "Cada vez que algo sale mal, una línea nueva arriba de la lista: qué pasó y la regla que evita repetirlo. En mi caso (Nei, de ARCKHÉ), funciona así: el mismo error no vuelve, porque la corrección se convierte en una regla escrita."
         },
         {
           "icone": "chat",
@@ -310,12 +310,12 @@
       "links": [
         {
           "t": "FEC: Formación de Ingeniería de Contexto",
-          "href": "https://inematds.github.io/FEC/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "camadas"
         },
         {
           "t": "Capa de contexto: tu negocio en un solo lugar",
-          "href": "https://inematds.github.io/camada-contexto/guia/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "pasta"
         }
       ]

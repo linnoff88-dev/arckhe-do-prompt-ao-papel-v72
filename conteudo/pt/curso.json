@@ -1,28 +1,28 @@
 {
   "id": "do-prompt-ao-papel-v72",
   "lang": "pt-BR",
-  "url": "https://inematds.github.io/do-prompt-ao-papel-v72/",
+  "url": "https://linnoff88-dev.github.io/
   "nome": "Do prompt ao papel",
   "sub": "Gerencie a IA como alguém da equipe",
   "volta": {
-    "t": "INEMA.CLUB",
-    "href": "https://inema.club/"
+    "t": "ARCKHÉ AI",
+    "href": "https://ARCKHÉ AI/"
   },
   "lado_card": {
     "rot": "Ideia central",
     "t": "Em vez do prompt perfeito, o papel",
     "texto": "Objetivo que dá para medir, contexto que o agente já tem e um exemplo bem feito. Depois, treino em ciclo.",
     "link": "Ir para a ficha de função",
-    "href": "https://inematds.github.io/do-prompt-ao-papel-v72/aulas/papel/",
-    "href_en": "https://inematds.github.io/do-prompt-ao-papel-v72/en/aulas/papel/",
-    "href_es": "https://inematds.github.io/do-prompt-ao-papel-v72/es/aulas/papel/"
+    "href": "https://linnoff88-dev.github.io/
+    "href_en": "https://linnoff88-dev.github.io/
+    "href_es": "https://linnoff88-dev.github.io/
   },
-  "rodape": "INEMA.CLUB · conteúdo aberto e gratuito · formato INEMA Learning v7.2 · <a href=\"https://inema.club/\">inema.club</a> · <a href=\"https://www.inema.club/aprender-inteligencia-artificial/\">Guia: como aprender inteligência artificial</a> · <a href=\"https://www.inema.club/cursos/387-do-prompt-ao-papel-gerencie-a-ia-como-alguem-da-equipe/\">Ficha completa deste curso no INEMA.CLUB</a>",
+  "rodape": "ARCKHÉ AI · conteúdo aberto e gratuito · formato ARCKHÉ Learning v7.2 · <a href=\"https://ARCKHÉ AI/\">ARCKHÉ AI</a> · <a href=\"https://www.ARCKHÉ AI/aprender-inteligencia-artificial/\">Guia: como aprender inteligência artificial</a> · <a href=\"https://www.ARCKHÉ AI/cursos/387-do-prompt-ao-papel-gerencie-a-ia-como-alguem-da-equipe/\">Ficha completa deste curso no ARCKHÉ AI</a>",
   "videos": {
     "dpap-completo": {
       "titulo": "Esqueça o prompt: em 2027, gerencie a IA",
       "duracao": "5 min 11 s",
-      "mp4": "https://github.com/inematds/do-prompt-ao-papel-v72/releases/download/video-v1.0.0/dpap-completo.mp4",
+      "mp4": "https://github.com/linnoff88-dev/do-prompt-ao-papel-v72/releases/download/video-v1.0.0/dpap-completo.mp4",
       "vtt": "assets/vtt/dpap-completo.vtt",
       "poster": "assets/img/videos/dpap-completo.jpg",
       "pagina": "https://www.youtube.com/watch?v=miP2vLsr6jE"
@@ -30,7 +30,7 @@
     "dpap-reel1": {
       "titulo": "Pare de escrever prompt: defina o papel",
       "duracao": "51 s",
-      "mp4": "https://github.com/inematds/do-prompt-ao-papel-v72/releases/download/video-v1.0.0/dpap-reel1.mp4",
+      "mp4": "https://github.com/linnoff88-dev/do-prompt-ao-papel-v72/releases/download/video-v1.0.0/dpap-reel1.mp4",
       "vtt": "assets/vtt/dpap-reel1.vtt",
       "poster": "assets/img/videos/dpap-reel1.jpg",
       "pagina": "https://www.youtube.com/watch?v=6L7V2d1iSoY",
@@ -39,7 +39,7 @@
     "dpap-reel2": {
       "titulo": "Como delegar para a IA: objetivo SMART",
       "duracao": "46 s",
-      "mp4": "https://github.com/inematds/do-prompt-ao-papel-v72/releases/download/video-v1.0.0/dpap-reel2.mp4",
+      "mp4": "https://github.com/linnoff88-dev/do-prompt-ao-papel-v72/releases/download/video-v1.0.0/dpap-reel2.mp4",
       "vtt": "assets/vtt/dpap-reel2.vtt",
       "poster": "assets/img/videos/dpap-reel2.jpg",
       "pagina": "https://www.youtube.com/watch?v=T945m2nfaAA",
@@ -48,7 +48,7 @@
     "dpap-reel3": {
       "titulo": "Treine o agente como um funcionário",
       "duracao": "53 s",
-      "mp4": "https://github.com/inematds/do-prompt-ao-papel-v72/releases/download/video-v1.0.0/dpap-reel3.mp4",
+      "mp4": "https://github.com/linnoff88-dev/do-prompt-ao-papel-v72/releases/download/video-v1.0.0/dpap-reel3.mp4",
       "vtt": "assets/vtt/dpap-reel3.vtt",
       "poster": "assets/img/videos/dpap-reel3.jpg",
       "pagina": "https://www.youtube.com/watch?v=z60IMZwKrTM",
@@ -57,7 +57,7 @@
     "dpap-reel4": {
       "titulo": "Agente de IA sem quebrar com o custo",
       "duracao": "40 s",
-      "mp4": "https://github.com/inematds/do-prompt-ao-papel-v72/releases/download/video-v1.0.0/dpap-reel4.mp4",
+      "mp4": "https://github.com/linnoff88-dev/do-prompt-ao-papel-v72/releases/download/video-v1.0.0/dpap-reel4.mp4",
       "vtt": "assets/vtt/dpap-reel4.vtt",
       "poster": "assets/img/videos/dpap-reel4.jpg",
       "pagina": "https://www.youtube.com/watch?v=1yXmp-xTErI",
@@ -122,7 +122,7 @@
       {
         "t": "Quem fala no curso",
         "itens": [
-          "Nei Maldaner, do INEMA.CLUB: 40 anos de tecnologia, de programador a fundador de empresas.",
+          "Nei Maldaner, do ARCKHÉ AI: 40 anos de tecnologia, de programador a fundador de empresas.",
           "Quando o texto diz \"eu\" ou \"no meu caso\", é ele contando como trabalha hoje com agentes de IA."
         ]
       }

@@ -107,7 +107,7 @@
         }
       ],
       "volta": "¿Falló alguna ronda? La falla vuelve a la lista y el ciclo comienza de nuevo",
-      "legenda": "En mi caso (Nei, de INEMA), buena parte del día es así: delego, doy retroalimentación, y cada corrección se vuelve una regla escrita. De cierto modo, yo entreno al agente tanto como él me entrena a mí.",
+      "legenda": "En mi caso (Nei, de ARCKHÉ), buena parte del día es así: delego, doy retroalimentación, y cada corrección se vuelve una regla escrita. De cierto modo, yo entreno al agente tanto como él me entrena a mí.",
       "rolagem": true,
       "rolagem_fim": {
         "titulo": "El entrenamiento completo",

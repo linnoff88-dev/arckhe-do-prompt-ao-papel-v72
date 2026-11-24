@@ -69,7 +69,7 @@
               "t": "the date"
             }
           ],
-          "detalhe": "Every time something goes wrong, add a new line at the top of the list: what happened and the rule that keeps it from happening again. In my case (Nei, from INEMA), it works like this: the same mistake doesn't come back, because the fix becomes a written rule."
+          "detalhe": "Every time something goes wrong, add a new line at the top of the list: what happened and the rule that keeps it from happening again. In my case (Nei, from ARCKHÉ), it works like this: the same mistake doesn't come back, because the fix becomes a written rule."
         },
         {
           "icone": "chat",
@@ -310,12 +310,12 @@
       "links": [
         {
           "t": "FEC: Context Engineering Training",
-          "href": "https://inematds.github.io/FEC/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "camadas"
         },
         {
           "t": "Context layer: your business in one place",
-          "href": "https://inematds.github.io/camada-contexto/guia/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "pasta"
         }
       ]

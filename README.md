@@ -1,4 +1,4 @@
-﻿# Do prompt ao papel
+# Do prompt ao papel
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -6,9 +6,9 @@
 </div>
 
 
-Curso aberto e gratuito do INEMA.CLUB, em 8 aulas (formato INEMA Learning v7.2), em portuguÃªs, inglÃªs e espanhol.
+Curso aberto e gratuito do ARCKHÉ AI, em 8 aulas (formato ARCKHÉ Learning v7.2), em portuguÃªs, inglÃªs e espanhol.
 
-**https://inematds.github.io/do-prompt-ao-papel-v72/** Â· [English](https://inematds.github.io/do-prompt-ao-papel-v72/en/) Â· [EspaÃ±ol](https://inematds.github.io/do-prompt-ao-papel-v72/es/)
+**https://linnoff88-dev.github.io/ Â· [English](https://linnoff88-dev.github.io/ Â· [EspaÃ±ol](https://linnoff88-dev.github.io/
 
 Primeiro a gente escrevia o pedido palavra por palavra (engenharia de prompt). Depois aprendeu a dar contexto (engenharia de contexto). Agora a IA trabalha como alguÃ©m da equipe, e a habilidade que vale Ã© gerenciar (engenharia de papel).
 
@@ -32,13 +32,13 @@ Primeiro a gente escrevia o pedido palavra por palavra (engenharia de prompt). D
 5. âš™ï¸ `python3 ~/.claude/skills/formato-curso-v72/scripts/traduzir.py . en es` (tradutor central, assinatura) â†’ `gerar.py --lang en|es` â†’ validar.
 6. ðŸ§  Commit + push (GitHub Pages da raiz da main). VÃ­deos na release `video-v1.0.0`.
 
-ConteÃºdo: CC BY 4.0 Â· INEMA.CLUB, conteÃºdo aberto e gratuito.
+ConteÃºdo: CC BY 4.0 Â· ARCKHÉ AI, conteÃºdo aberto e gratuito.
 
-## Mais no INEMA.CLUB
+## Mais no ARCKHÉ AI
 
-- [Ficha completa deste curso](https://www.inema.club/cursos/387-do-prompt-ao-papel-gerencie-a-ia-como-alguem-da-equipe/)
-- [Guia: como aprender inteligÃªncia artificial](https://www.inema.club/aprender-inteligencia-artificial/)
-- [Todos os cursos](https://www.inema.club/cursos/)
+- [Ficha completa deste curso](https://www.ARCKHÉ AI/cursos/387-do-prompt-ao-papel-gerencie-a-ia-como-alguem-da-equipe/)
+- [Guia: como aprender inteligÃªncia artificial](https://www.ARCKHÉ AI/aprender-inteligencia-artificial/)
+- [Todos os cursos](https://www.ARCKHÉ AI/cursos/)
 
 ---
 

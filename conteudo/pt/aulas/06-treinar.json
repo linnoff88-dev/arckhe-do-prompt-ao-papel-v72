@@ -107,7 +107,7 @@
         }
       ],
       "volta": "Falhou alguma rodada? A falha volta para a lista e o ciclo recomeça",
-      "legenda": "No meu caso (Nei, do INEMA), boa parte do dia é assim: delego, dou retorno, e cada correção vira regra escrita. De certo modo, eu treino o agente tanto quanto ele me treina.",
+      "legenda": "No meu caso (Nei, do ARCKHÉ), boa parte do dia é assim: delego, dou retorno, e cada correção vira regra escrita. De certo modo, eu treino o agente tanto quanto ele me treina.",
       "rolagem": true,
       "rolagem_fim": {
         "titulo": "O treino inteiro",
