@@ -6,39 +6,39 @@
 </div>
 
 
-Curso aberto e gratuito do ARCKHÉ AI, em 8 aulas (formato ARCKHÉ Learning v7.2), em portuguÃªs, inglÃªs e espanhol.
+Curso aberto e gratuito do ARCKHê AI, em 8 aulas (formato ARCKHê Learning v7.2), em portuguêÂªs, inglêÂªs e espanhol.
 
-**https://linnoff88-dev.github.io/ Â· [English](https://linnoff88-dev.github.io/ Â· [EspaÃ±ol](https://linnoff88-dev.github.io/
+**https://linnoff88-dev.github.io/ êÂ· [English](https://linnoff88-dev.github.io/ êÂ· [EspaêÂ±ol](https://linnoff88-dev.github.io/
 
-Primeiro a gente escrevia o pedido palavra por palavra (engenharia de prompt). Depois aprendeu a dar contexto (engenharia de contexto). Agora a IA trabalha como alguÃ©m da equipe, e a habilidade que vale Ã© gerenciar (engenharia de papel).
+Primeiro a gente escrevia o pedido palavra por palavra (engenharia de prompt). Depois aprendeu a dar contexto (engenharia de contexto). Agora a IA trabalha como alguêÂ©m da equipe, e a habilidade que vale êÂ© gerenciar (engenharia de papel).
 
-| # | aula | prÃ¡tica |
+| # | aula | prêÂ¡tica |
 |---|---|---|
-| 1 | TrÃªs eras: do prompt ao papel | diagnosticar 5 pedidos reais |
-| 2 | A era do prompt: o que morreu e o que ficou | auditar um prompt por subtraÃ§Ã£o |
-| 3 | A era do contexto | arquivo de regras + liÃ§Ã£o de um erro real |
-| 4 | A era do papel: a ficha de funÃ§Ã£o | ficha conferida na pÃ¡gina |
-| 5 | Objetivo que dÃ¡ para medir (SMART) | simulaÃ§Ã£o com um agente novo + objetivo conferido |
-| 6 | Treinar em ciclo | 5 rodadas, lista de correÃ§Ãµes, procedimento padrÃ£o |
+| 1 | TrêÂªs eras: do prompt ao papel | diagnosticar 5 pedidos reais |
+| 2 | A era do prompt: o que morreu e o que ficou | auditar um prompt por subtraêÂ§êÂ£o |
+| 3 | A era do contexto | arquivo de regras + liêÂ§êÂ£o de um erro real |
+| 4 | A era do papel: a ficha de funêÂ§êÂ£o | ficha conferida na pêÂ¡gina |
+| 5 | Objetivo que dêÂ¡ para medir (SMART) | simulaêÂ§êÂ£o com um agente novo + objetivo conferido |
+| 6 | Treinar em ciclo | 5 rodadas, lista de correêÂ§êÂµes, procedimento padrêÂ£o |
 | 7 | Custo | tabela de tarefas e uma semana anotada |
-| 8 | A mesma tarefa nas trÃªs eras | comparaÃ§Ã£o + plano com datas |
+| 8 | A mesma tarefa nas trêÂªs eras | comparaêÂ§êÂ£o + plano com datas |
 
-## O processo, do inÃ­cio ao fim
+## O processo, do inêÂ­cio ao fim
 
-1. ðŸ§  Plano das aulas (`PLANO.md`).
-2. ðŸ§  ConteÃºdo em `conteudo/pt/` (JSON); imagens em `assets/img/` (Codex image_gen, capa composta por `capa/compor-capa.cjs`).
-3. âš™ï¸ `python3 gerar.py && python3 validar.py --links` e `node ~/.claude/skills/formato-curso-v72/scripts/conferir-tela.cjs .`
-4. ðŸ¤– Revisor independente (agente novo, persona do pÃºblico).
-5. âš™ï¸ `python3 ~/.claude/skills/formato-curso-v72/scripts/traduzir.py . en es` (tradutor central, assinatura) â†’ `gerar.py --lang en|es` â†’ validar.
-6. ðŸ§  Commit + push (GitHub Pages da raiz da main). VÃ­deos na release `video-v1.0.0`.
+1. ê°Å¸Â§Â  Plano das aulas (`PLANO.md`).
+2. ê°Å¸Â§Â  ConteêÂºdo em `conteudo/pt/` (JSON); imagens em `assets/img/` (Codex image_gen, capa composta por `capa/compor-capa.cjs`).
+3. ê¢Å¡â¢ê¯Â¸Â `python3 gerar.py && python3 validar.py --links` e `node ~/.claude/skills/formato-curso-v72/scripts/conferir-tela.cjs .`
+4. ê°Å¸Â¤â Revisor independente (agente novo, persona do pêÂºblico).
+5. ê¢Å¡â¢ê¯Â¸Â `python3 ~/.claude/skills/formato-curso-v72/scripts/traduzir.py . en es` (tradutor central, assinatura) ê¢â â `gerar.py --lang en|es` ê¢â â validar.
+6. ê°Å¸Â§Â  Commit + push (GitHub Pages da raiz da main). VêÂ­deos na release `video-v1.0.0`.
 
-ConteÃºdo: CC BY 4.0 Â· ARCKHÉ AI, conteÃºdo aberto e gratuito.
+ConteêÂºdo: CC BY 4.0 êÂ· ARCKHê AI, conteêÂºdo aberto e gratuito.
 
-## Mais no ARCKHÉ AI
+## Mais no ARCKHê AI
 
-- [Ficha completa deste curso](https://www.ARCKHÉ AI/cursos/387-do-prompt-ao-papel-gerencie-a-ia-como-alguem-da-equipe/)
-- [Guia: como aprender inteligÃªncia artificial](https://www.ARCKHÉ AI/aprender-inteligencia-artificial/)
-- [Todos os cursos](https://www.ARCKHÉ AI/cursos/)
+- [Ficha completa deste curso](https://www.ARCKHê AI/cursos/387-do-prompt-ao-papel-gerencie-a-ia-como-alguem-da-equipe/)
+- [Guia: como aprender inteligêÂªncia artificial](https://www.ARCKHê AI/aprender-inteligencia-artificial/)
+- [Todos os cursos](https://www.ARCKHê AI/cursos/)
 
 ---
 

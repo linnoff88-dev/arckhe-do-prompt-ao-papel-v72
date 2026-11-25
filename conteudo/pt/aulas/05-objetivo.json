@@ -5,7 +5,7 @@
   "titulo": "Objetivo que dá para medir: o M do SMART",
   "titulo_curto": "Objetivo medível",
   "minutos": 15,
-  "lead": "Gerente delega com o SMART há meio século: específico, mensurável, atingível, relevante e com prazo. Para um agente, a letra que mais pesa é o M. Sem medida, ele não consegue conferir o próprio trabalho e não sabe quando acabou. \"Melhora o meu site\" não é objetivo. \"A página inicial abre em menos de dois segundos no celular\" é.",
+  "lead": "Gerente delega com o SMART há meio século: específico, mensurável, atingível, relevante e com prazo. Para um agente, a letra que mais pesa é o M. Sem medida, ele nêo consegue conferir o próprio trabalho e nêo sabe quando acabou. \"Melhora o meu site\" nêo é objetivo. \"A página inicial abre em menos de dois segundos no celular\" é.",
   "objetivo": "transformar um pedido vago num objetivo com medida e prazo que o agente consegue conferir sozinho.",
   "competencias": [
     "escrever-objetivo-smart",
@@ -62,7 +62,7 @@
               "t": "dá para conferir"
             }
           ],
-          "detalhe": "Mensurável, ou seja, verificável: um número, um teste, uma comparação. É o que deixa o agente conferir o próprio trabalho e saber quando parar. Sem o M, ele para quando acha, não quando acabou."
+          "detalhe": "Mensurável, ou seja, verificável: um número, um teste, uma comparaçêo. É o que deixa o agente conferir o próprio trabalho e saber quando parar. Sem o M, ele para quando acha, nêo quando acabou."
         },
         {
           "icone": "check",
@@ -73,7 +73,7 @@
               "t": "com o acesso que ele tem"
             }
           ],
-          "detalhe": "Atingível com o que o agente tem: acesso, ferramentas, permissões. Pedir que ele mude o servidor sem dar acesso ao servidor não é atingível."
+          "detalhe": "Atingível com o que o agente tem: acesso, ferramentas, permissões. Pedir que ele mude o servidor sem dar acesso ao servidor nêo é atingível."
         },
         {
           "icone": "alvo",
@@ -84,7 +84,7 @@
               "t": "por que importa"
             }
           ],
-          "detalhe": "Relevante: por que isso importa agora. É o pedaço de contexto que ajuda o agente a decidir quando aparecer um caso que você não previu."
+          "detalhe": "Relevante: por que isso importa agora. É o pedaço de contexto que ajuda o agente a decidir quando aparecer um caso que você nêo previu."
         },
         {
           "icone": "calendario",
@@ -98,11 +98,11 @@
               "t": "como mostrar"
             }
           ],
-          "detalhe": "Com prazo: até quando e como ele mostra o resultado. Sem prazo, a tarefa não tem fim nem conferência."
+          "detalhe": "Com prazo: até quando e como ele mostra o resultado. Sem prazo, a tarefa nêo tem fim nem conferência."
         }
       ],
       "legenda": "O mesmo método que gerente usa com pessoas. Com agente, o M deixa de ser detalhe e vira o critério de parada.",
-      "dica": "Teste rápido: se você não consegue dizer como vai conferir, o agente também não consegue."
+      "dica": "Teste rápido: se você nêo consegue dizer como vai conferir, o agente também nêo consegue."
     },
     {
       "tipo": "passos",
@@ -138,11 +138,11 @@
           "sub": "escola",
           "texto": [
             "Vago: \"Melhora o comunicado aos pais.\"",
-            "Medível: cabe numa tela de celular, diz a data de início na primeira frase e é aprovado sem pedido de correção, até sexta às 16h."
+            "Medível: cabe numa tela de celular, diz a data de início na primeira frase e é aprovado sem pedido de correçêo, até sexta às 16h."
           ],
           "exemplo": {
             "rot": "Como conferir",
-            "texto": "Abrir no celular, achar a data na primeira frase e aprovar ou não."
+            "texto": "Abrir no celular, achar a data na primeira frase e aprovar ou nêo."
           }
         }
       ]
@@ -160,7 +160,7 @@
         {
           "rot": "Pedido: o agente pergunta o que falta",
           "icone": "chat",
-          "conteudo": "Antes de começar esta tarefa, me faça as perguntas que um funcionário novo faria para saber:\n- o que exatamente é para fazer;\n- como conferir que terminou (um número ou um teste);\n- o que não pode mudar;\n- até quando e como me mostrar.\nSó comece depois que eu responder.\n\nTarefa: <o pedido>"
+          "conteudo": "Antes de começar esta tarefa, me faça as perguntas que um funcionário novo faria para saber:\n- o que exatamente é para fazer;\n- como conferir que terminou (um número ou um teste);\n- o que nêo pode mudar;\n- até quando e como me mostrar.\nSó comece depois que eu responder.\n\nTarefa: <o pedido>"
         }
       ],
       "saida": {
@@ -168,7 +168,7 @@
         "abas": [
           {
             "rot": "Como conferir",
-            "html": "<ol><li>A Medida tem um número ou um teste, não um adjetivo.</li><li>O Prazo diz até quando e como o resultado chega.</li><li>Você consegue dizer, olhando a entrega, se passou ou não.</li></ol>"
+            "html": "<ol><li>A Medida tem um número ou um teste, nêo um adjetivo.</li><li>O Prazo diz até quando e como o resultado chega.</li><li>Você consegue dizer, olhando a entrega, se passou ou nêo.</li></ol>"
           },
           {
             "rot": "Erros comuns",
@@ -179,11 +179,11 @@
     },
     {
       "tipo": "simconversa",
-      "titulo": "Simulação: o primeiro dia de um agente novo",
+      "titulo": "Simulaçêo: o primeiro dia de um agente novo",
       "sub": "Conversa simulada para treinar. O agente acabou de chegar e pergunta. Escolha a resposta que você daria.",
       "personagem": {
         "nome": "Agente novo",
-        "papel": "simulação · primeiro dia na equipe"
+        "papel": "simulaçêo · primeiro dia na equipe"
       },
       "inicio": "abre",
       "falas": {
@@ -194,13 +194,13 @@
               "t": "Melhora o meu site.",
               "vai": "fim-vago",
               "nota": 0,
-              "comenta": "Sem medida, o agente vai mexer no que achar e parar quando achar. Você não terá como dizer se ficou melhor."
+              "comenta": "Sem medida, o agente vai mexer no que achar e parar quando achar. Você nêo terá como dizer se ficou melhor."
             },
             {
               "t": "Deixa a página inicial mais rápida.",
               "vai": "medida",
               "nota": 1,
-              "comenta": "Ficou específico (a página inicial), mas \"mais rápida\" ainda não tem número. O agente vai precisar perguntar."
+              "comenta": "Ficou específico (a página inicial), mas \"mais rápida\" ainda nêo tem número. O agente vai precisar perguntar."
             },
             {
               "t": "Faz a página inicial abrir em menos de 2 segundos no celular.",
@@ -217,7 +217,7 @@
               "t": "Você vai sentir quando estiver rápido.",
               "vai": "fim-vago",
               "nota": 0,
-              "comenta": "\"Sentir\" não é medida. O agente não tem como se conferir e você não tem como aprovar."
+              "comenta": "\"Sentir\" nêo é medida. O agente nêo tem como se conferir e você nêo tem como aprovar."
             },
             {
               "t": "Mede no PageSpeed Insights, perfil de celular: pronto quando der menos de 2 s em três medições seguidas.",
@@ -229,7 +229,7 @@
               "t": "Me mostra o antes e o depois.",
               "vai": "fronteira",
               "nota": 1,
-              "comenta": "Ajuda você a aprovar, mas o agente ainda não sabe quando parar. Diga o número que encerra a tarefa."
+              "comenta": "Ajuda você a aprovar, mas o agente ainda nêo sabe quando parar. Diga o número que encerra a tarefa."
             }
           ]
         },
@@ -237,7 +237,7 @@
           "cliente": "Para ganhar tempo, posso trocar as fotos e mudar o layout?",
           "opcoes": [
             {
-              "t": "Pode comprimir as fotos. Layout, textos e preços não mudam sem me perguntar.",
+              "t": "Pode comprimir as fotos. Layout, textos e preços nêo mudam sem me perguntar.",
               "vai": "prazo",
               "nota": 2,
               "comenta": "Fronteira clara: o que pode e o que precisa do seu sim. O agente trabalha solto dentro dela."
@@ -263,13 +263,13 @@
               "t": "Quando der.",
               "vai": "fim-prazo",
               "nota": 0,
-              "comenta": "Sem prazo, a tarefa não tem fim nem conferência marcada."
+              "comenta": "Sem prazo, a tarefa nêo tem fim nem conferência marcada."
             },
             {
               "t": "Até sexta.",
               "vai": "fim-quase",
               "nota": 1,
-              "comenta": "Tem prazo, mas não diz como você vai receber. Você vai ter de perguntar na sexta."
+              "comenta": "Tem prazo, mas nêo diz como você vai receber. Você vai ter de perguntar na sexta."
             },
             {
               "t": "Até sexta. Me manda as três medições e a lista do que mudou.",
@@ -287,7 +287,7 @@
         "fim-fronteira": {
           "fim": true,
           "titulo": "Bateu a meta, quebrou a loja",
-          "texto": "A página ficou rápida porque perdeu as fotos e metade dos textos. Medida sem fronteira é perigosa: diga o que não pode mudar sem você."
+          "texto": "A página ficou rápida porque perdeu as fotos e metade dos textos. Medida sem fronteira é perigosa: diga o que nêo pode mudar sem você."
         },
         "fim-prazo": {
           "fim": true,
@@ -302,7 +302,7 @@
         "fim-quase": {
           "fim": true,
           "titulo": "Quase pronto",
-          "texto": "O agente sabe o alvo, a medida, a fronteira e o prazo. Só não sabe como entregar: na sexta você vai ter de pedir as medições. Diga também o formato da entrega."
+          "texto": "O agente sabe o alvo, a medida, a fronteira e o prazo. Só nêo sabe como entregar: na sexta você vai ter de pedir as medições. Diga também o formato da entrega."
         },
         "fim-tarde": {
           "fim": true,
@@ -310,12 +310,12 @@
           "texto": "O agente trocou o layout e mexeu nos preços para ganhar velocidade. Você só soube depois, com a página no ar. Diga antes o que precisa do seu sim."
         }
       },
-      "licao": "O agente pergunta o que você esqueceu de dizer: o número, o teste, a fronteira e o prazo. Responda antes, na ficha, e ele não precisa perguntar."
+      "licao": "O agente pergunta o que você esqueceu de dizer: o número, o teste, a fronteira e o prazo. Responda antes, na ficha, e ele nêo precisa perguntar."
     },
     {
       "tipo": "conferidor",
       "titulo": "Confira o seu objetivo",
-      "sub": "Cole o pedido vago e a versão reescrita. A página confere os campos, recusa vazio e adjetivo solto e pede uma Medida com número ou teste e um Prazo com dia, data ou hora. O OK é uma checagem de forma, não garante que a medida é boa: quem decide é você.",
+      "sub": "Cole o pedido vago e a versêo reescrita. A página confere os campos, recusa vazio e adjetivo solto e pede uma Medida com número ou teste e um Prazo com dia, data ou hora. O OK é uma checagem de forma, nêo garante que a medida é boa: quem decide é você.",
       "arquivo": "objetivo.txt",
       "rot": "Cole aqui o seu objetivo (um campo por linha):",
       "modelo": "Pedido vago: ...\nObjetivo: ...\nMedida: ...\nPrazo: ...",
@@ -498,7 +498,7 @@
           "tipo": "termos",
           "grupos": [
             {
-              "rot": "na Medida o que se mede (linhas, segundos, tela, data, total, correção…)",
+              "rot": "na Medida o que se mede (linhas, segundos, tela, data, total, correçêo…)",
               "campo": "Medida",
               "termos": [
                 "linha / linhas / line / lines / línea / líneas",
@@ -511,7 +511,7 @@
                 "tela / screen / pantalla",
                 "data / date / fecha",
                 "erro / erros / error / errors / errores",
-                "correção / correções / correction / corrections / corrección / correcciones",
+                "correçêo / correções / correction / corrections / corrección / correcciones",
                 "item / itens / items / ítem / ítems",
                 "total / totais / totals / totales",
                 "preço / preços / price / prices / precio / precios",
@@ -520,7 +520,7 @@
                 "reais / real / R$",
                 "vezes / times / veces",
                 "por cento / percent / %",
-                "medição / medições / measurement / measurements / medición / mediciones",
+                "mediçêo / medições / measurement / measurements / medición / mediciones",
                 "resposta / respostas / reply / replies / answer / respuesta / respuestas",
                 "pedido / pedidos / request / requests / order / orders",
                 "página / page / pages / páginas",
@@ -634,12 +634,12 @@
                 "horário / horários / time / times / horario / horarios",
                 "turno / turnos / shift / shifts",
                 "consulta / consultas / appointment / appointments",
-                "sessão / sessões / session / sessions / sesión / sesiones",
+                "sessêo / sessões / session / sessions / sesión / sesiones",
                 "valor / valores / amount / amounts / monto / montos",
                 "e-mail / e-mails / email / emails / correo / correos",
                 "mudança / mudanças / cambio / cambios / change / changes",
                 "peso / pesos / dólar / dólares / dollar / dollars / $",
-                "cotização / cotizações / orçamento / orçamentos / cotización / cotizaciones / quote / quotes",
+                "cotizaçêo / cotizações / orçamento / orçamentos / cotización / cotizaciones / quote / quotes",
                 "factura / facturas / fatura / faturas / invoice / invoices / nota fiscal"
               ]
             }
@@ -791,7 +791,7 @@
                 "sábado / saturday",
                 "domingo / sunday",
                 "hoje / today / hoy",
-                "amanhã / tomorrow / mañana",
+                "amanhê / tomorrow / mañana",
                 "fim do mês / end of the month / end of month / fin de mes / final del mes",
                 "início do mês / start of the month / inicio de mes",
                 "mês que vem / next month / el próximo mes",
@@ -919,7 +919,7 @@
       ],
       "ok": "OK: objetivo com os {n} campos preenchidos",
       "exemplo": "Pedido vago: melhora o meu site.\nObjetivo: diminuir o tempo de abertura da página inicial da loja no celular.\nMedida: menos de 2 segundos em três medições seguidas, perfil de celular.\nPrazo: até sexta, com as três medições e a lista do que mudou.",
-      "exemplo_errado": "Pedido vago: melhora o meu site.\nObjetivo: deixar o site da loja melhor.\nMedida: ficar bom, nenhuma reclamação.\nPrazo: algum dia desses, sem pressa."
+      "exemplo_errado": "Pedido vago: melhora o meu site.\nObjetivo: deixar o site da loja melhor.\nMedida: ficar bom, nenhuma reclamaçêo.\nPrazo: algum dia desses, sem pressa."
     },
     {
       "tipo": "pratica",
@@ -944,7 +944,7 @@
           "id": "e3",
           "titulo": "E3 · O agente se confere",
           "min": "15 min",
-          "texto": "Entregue o objetivo e peça que, ao terminar, ele diga como conferiu cada item da Medida. Se a medida pede uma ferramenta que ele não acessa (no chat, o PageSpeed, por exemplo), quem mede é você, com o mesmo teste.",
+          "texto": "Entregue o objetivo e peça que, ao terminar, ele diga como conferiu cada item da Medida. Se a medida pede uma ferramenta que ele nêo acessa (no chat, o PageSpeed, por exemplo), quem mede é você, com o mesmo teste.",
           "pronto": "a entrega veio com a conferência item por item, e você refez um dos testes e chegou ao mesmo resultado."
         }
       ]
@@ -958,7 +958,7 @@
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
           "p": "Por que o M é a letra que mais pesa para um agente?",
@@ -969,7 +969,7 @@
             "Porque os modelos só entendem números."
           ],
           "certa": 1,
-          "explica": "Sem medida, ele para quando acha que está bom. Com um número ou teste, ele mesmo verifica e você aprova sem refazer a medição.",
+          "explica": "Sem medida, ele para quando acha que está bom. Com um número ou teste, ele mesmo verifica e você aprova sem refazer a mediçêo.",
           "cert": true,
           "ref": "diagrama"
         },
@@ -982,19 +982,19 @@
             "Melhora a planilha o máximo possível."
           ],
           "certa": 2,
-          "explica": "Tem o quê (uma aba por mês), o teste (total igual ao extrato) e o prazo (dia 5). Os outros dependem da opinião de quem olha.",
+          "explica": "Tem o quê (uma aba por mês), o teste (total igual ao extrato) e o prazo (dia 5). Os outros dependem da opiniêo de quem olha.",
           "ref": "passos"
         },
         {
-          "p": "Na simulação, \"pode mudar tudo, contanto que fique rápido\" deu errado. Por quê?",
+          "p": "Na simulaçêo, \"pode mudar tudo, contanto que fique rápido\" deu errado. Por quê?",
           "opcoes": [
             "Porque medida sem fronteira deixa o agente cumprir o número quebrando o resto.",
-            "Porque o agente não sabe mexer em layout.",
+            "Porque o agente nêo sabe mexer em layout.",
             "Porque faltou dar o nome da loja e o endereço do site para o agente saber onde mexer.",
-            "Porque velocidade não se mede."
+            "Porque velocidade nêo se mede."
           ],
           "certa": 0,
-          "explica": "O jeito mais rápido pode ser tirar fotos e textos. Junto com a medida vai a fronteira: o que não muda sem o seu sim.",
+          "explica": "O jeito mais rápido pode ser tirar fotos e textos. Junto com a medida vai a fronteira: o que nêo muda sem o seu sim.",
           "ref": "simconversa"
         }
       ]
@@ -1013,7 +1013,7 @@
         },
         {
           "t": "Medida com fronteira",
-          "texto": "Diga também o que não pode mudar para bater a meta."
+          "texto": "Diga também o que nêo pode mudar para bater a meta."
         }
       ]
     },

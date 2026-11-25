@@ -35,12 +35,12 @@
     {
       "tipo": "diagrama",
       "titulo": "Uma tarefa, três versões",
-      "sub": "Toque ou clique em cada versão. A tarefa é a mesma; muda o que você entrega à IA.",
+      "sub": "Toque ou clique em cada versêo. A tarefa é a mesma; muda o que você entrega à IA.",
       "nos": [
         {
           "icone": "caneta",
           "titulo": "Só prompt",
-          "sub": "versão 1",
+          "sub": "versêo 1",
           "itens": [
             {
               "t": "o pedido, e só"
@@ -51,7 +51,7 @@
         {
           "icone": "pasta",
           "titulo": "Com contexto",
-          "sub": "versão 2",
+          "sub": "versêo 2",
           "itens": [
             {
               "t": "pedido curto"
@@ -65,11 +65,11 @@
         {
           "icone": "usuario",
           "titulo": "Papel completo",
-          "sub": "versão 3",
+          "sub": "versêo 3",
           "forte": true,
           "itens": [
             {
-              "t": "ficha de função"
+              "t": "ficha de funçêo"
             },
             {
               "t": "procedimento treinado"
@@ -81,8 +81,8 @@
       "legenda": "Compare com a mesma régua: a Medida da ficha. Ela vale para as três versões.",
       "rolagem": true,
       "rolagem_fim": {
-        "titulo": "A evolução na sua mesa",
-        "texto": "A versão 1 mostra o que a IA faz sozinha. A 2 mostra o ganho do contexto. A 3 mostra o ganho de gerenciar: objetivo, exemplo e treino."
+        "titulo": "A evoluçêo na sua mesa",
+        "texto": "A versêo 1 mostra o que a IA faz sozinha. A 2 mostra o ganho do contexto. A 3 mostra o ganho de gerenciar: objetivo, exemplo e treino."
       }
     },
     {
@@ -91,30 +91,30 @@
       "sub": "Use a tarefa da sua ficha. Troque o texto entre < > pelo seu.",
       "blocos": [
         {
-          "rot": "Versão 1 · só prompt (conversa temporária, sem memória, fora do projeto)",
+          "rot": "Versêo 1 · só prompt (conversa temporária, sem memória, fora do projeto)",
           "icone": "caneta",
-          "conteudo": "<o pedido, do jeito que você faria antes do curso>\n\n(Para não vazar a memória: no ChatGPT, \"Chat temporário\" no alto da tela; no Claude e no Gemini, a conversa temporária ou com a memória desligada.)"
+          "conteudo": "<o pedido, do jeito que você faria antes do curso>\n\n(Para nêo vazar a memória: no ChatGPT, \"Chat temporário\" no alto da tela; no Claude e no Gemini, a conversa temporária ou com a memória desligada.)"
         },
         {
-          "rot": "Versão 2 · com contexto (dentro do projeto)",
+          "rot": "Versêo 2 · com contexto (dentro do projeto)",
           "icone": "pasta",
           "conteudo": "Leia as regras e as lições do projeto antes de começar.\n<o mesmo pedido, em uma linha>"
         },
         {
-          "rot": "Versão 3 · papel completo",
+          "rot": "Versêo 3 · papel completo",
           "icone": "usuario",
-          "conteudo": "Este é o seu papel: siga a ficha de função e o procedimento padrão do projeto.\nEntrada de hoje: <o caso>\nAo terminar, mostre a conferência pela Medida."
+          "conteudo": "Este é o seu papel: siga a ficha de funçêo e o procedimento padrêo do projeto.\nEntrada de hoje: <o caso>\nAo terminar, mostre a conferência pela Medida."
         },
         {
-          "rot": "Comparação (documento ou planilha)",
+          "rot": "Comparaçêo (documento ou planilha)",
           "icone": "lupa",
-          "conteudo": "# Comparação · <tarefa> · <data>\nRégua: <a Medida da ficha>\n\n| versão | passou na Medida? | o que ficou melhor | o que ficou pior | tempo seu |\n|---|---|---|---|---|\n| 1 · só prompt | | | | |\n| 2 · com contexto | | | | |\n| 3 · papel completo | | | | |\n\nConclusão em uma frase: <o que você passa a fazer daqui para frente>"
+          "conteudo": "# Comparaçêo · <tarefa> · <data>\nRégua: <a Medida da ficha>\n\n| versêo | passou na Medida? | o que ficou melhor | o que ficou pior | tempo seu |\n|---|---|---|---|---|\n| 1 · só prompt | | | | |\n| 2 · com contexto | | | | |\n| 3 · papel completo | | | | |\n\nConclusêo em uma frase: <o que você passa a fazer daqui para frente>"
         }
       ]
     },
     {
       "tipo": "pratica",
-      "titulo": "Prática: a comparação",
+      "titulo": "Prática: a comparaçêo",
       "sub": "A mesma entrada nas três versões.",
       "exercicios": [
         {
@@ -122,14 +122,14 @@
           "titulo": "E1 · Três versões",
           "min": "30 min",
           "texto": "Rode a tarefa da sua ficha nas três versões, com a mesma entrada, e salve os três resultados.",
-          "pronto": "você tem três arquivos de resultado, um por versão, com a mesma entrada."
+          "pronto": "você tem três arquivos de resultado, um por versêo, com a mesma entrada."
         },
         {
           "id": "e2",
           "titulo": "E2 · A régua",
           "min": "15 min",
-          "texto": "Preencha a comparação usando a Medida da ficha como régua.",
-          "pronto": "as três linhas dizem \"sim\" ou \"não\" na Medida e há uma conclusão de uma frase."
+          "texto": "Preencha a comparaçêo usando a Medida da ficha como régua.",
+          "pronto": "as três linhas dizem \"sim\" ou \"nêo\" na Medida e há uma conclusêo de uma frase."
         }
       ]
     },
@@ -145,7 +145,7 @@
           "titulo": "Contexto",
           "sub": "regras e lições",
           "saida": "Base que o agente lê antes de qualquer pedido.",
-          "passo": "Primeiro a casa: arquivo de regras, a primeira lição de um erro real e o teste da sessão nova."
+          "passo": "Primeiro a casa: arquivo de regras, a primeira liçêo de um erro real e o teste da sessêo nova."
         },
         {
           "aula": "papel",
@@ -153,7 +153,7 @@
           "quando": "Semana 1",
           "titulo": "Ficha",
           "sub": "o papel",
-          "saida": "Ficha de função conferida e a primeira entrega.",
+          "saida": "Ficha de funçêo conferida e a primeira entrega.",
           "passo": "Requer a base de contexto. O trabalho de referência feito por você vem antes da ficha."
         },
         {
@@ -171,7 +171,7 @@
           "quando": "Semana 2",
           "titulo": "Treino",
           "sub": "em ciclo",
-          "saida": "Procedimento padrão escrito.",
+          "saida": "Procedimento padrêo escrito.",
           "passo": "Requer a ficha com Medida. Cinco rodadas, a lista e o ciclo até zerar; o ciclo pode levar dois dias."
         },
         {
@@ -180,7 +180,7 @@
           "quando": "Semana 3",
           "titulo": "Custo",
           "sub": "a conta",
-          "saida": "Uma semana de uso anotada e uma decisão testada.",
+          "saida": "Uma semana de uso anotada e uma decisêo testada.",
           "passo": "Requer o procedimento: é com ele que você testa um modelo menor ou o lote."
         }
       ],
@@ -207,7 +207,7 @@
           "aula": "contexto"
         },
         {
-          "titulo": "Degrau 2 · Ficha de função",
+          "titulo": "Degrau 2 · Ficha de funçêo",
           "aula": "papel"
         },
         {
@@ -247,11 +247,11 @@
         },
         {
           "t": "Treine em ciclo",
-          "texto": "Várias rodadas, lista de correções e procedimento escrito. O mesmo erro não volta."
+          "texto": "Várias rodadas, lista de correções e procedimento escrito. O mesmo erro nêo volta."
         },
         {
           "t": "Cuide do custo",
-          "texto": "Modelo certo, cache, lote e conta acompanhada. Não tem milagre: só dá para relaxar quando o sistema roda certo."
+          "texto": "Modelo certo, cache, lote e conta acompanhada. Nêo tem milagre: só dá para relaxar quando o sistema roda certo."
         }
       ]
     },
@@ -261,15 +261,15 @@
       "sub": "Quatro perguntas sobre o curso inteiro.",
       "perguntas": [
         {
-          "p": "Na comparação das três versões, qual é a régua?",
+          "p": "Na comparaçêo das três versões, qual é a régua?",
           "opcoes": [
-            "O tamanho do texto de cada versão.",
-            "A sua impressão na hora.",
-            "O tempo que a IA levou para responder em cada versão.",
-            "A Medida da ficha de função, a mesma para as três."
+            "O tamanho do texto de cada versêo.",
+            "A sua impressêo na hora.",
+            "O tempo que a IA levou para responder em cada versêo.",
+            "A Medida da ficha de funçêo, a mesma para as três."
           ],
           "certa": 3,
-          "explica": "Uma régua só deixa a comparação justa. A Medida da ficha diz se o resultado serve, em qualquer versão.",
+          "explica": "Uma régua só deixa a comparaçêo justa. A Medida da ficha diz se o resultado serve, em qualquer versêo.",
           "cert": true,
           "ref": "codigo"
         },
@@ -279,7 +279,7 @@
             "Contexto, ficha, medida, treino, custo.",
             "Custo, treino, medida, ficha, contexto.",
             "Ficha, medida, custo, contexto, treino.",
-            "Qualquer ordem, porque os degraus são independentes."
+            "Qualquer ordem, porque os degraus sêo independentes."
           ],
           "certa": 0,
           "explica": "A ficha aponta para a base de contexto; a medida firma o objetivo da ficha; o treino usa a Medida; o teste de custo usa o procedimento treinado.",
@@ -290,11 +290,11 @@
           "opcoes": [
             "Você passa a escrever prompts maiores.",
             "Você deixa de conferir o que a IA faz.",
-            "Você passa a definir a função, conferir e corrigir, como faria com alguém da equipe.",
+            "Você passa a definir a funçêo, conferir e corrigir, como faria com alguém da equipe.",
             "Você precisa aprender a programar."
           ],
           "certa": 2,
-          "explica": "Papel é gestão: ficha, medida, exemplo, treino e custo. Conferir continua, só que de vez em quando e com régua.",
+          "explica": "Papel é gestêo: ficha, medida, exemplo, treino e custo. Conferir continua, só que de vez em quando e com régua.",
           "cert": true,
           "ref": "diagrama"
         },
@@ -302,12 +302,12 @@
           "p": "O agente errou a mesma coisa duas vezes. O que faltou?",
           "opcoes": [
             "Um modelo maior.",
-            "Transformar a primeira correção em regra escrita (lição ou procedimento).",
-            "Explicar de novo a correção na mesma conversa, com mais detalhe.",
+            "Transformar a primeira correçêo em regra escrita (liçêo ou procedimento).",
+            "Explicar de novo a correçêo na mesma conversa, com mais detalhe.",
             "Abrir uma conversa nova para ele começar do zero."
           ],
           "certa": 1,
-          "explica": "Correção que fica só no chat some. Escrita na lição ou no procedimento, ela entra em toda tarefa seguinte.",
+          "explica": "Correçêo que fica só no chat some. Escrita na liçêo ou no procedimento, ela entra em toda tarefa seguinte.",
           "ref": "resumo"
         }
       ]
@@ -317,12 +317,12 @@
       "titulo": "Continue por aqui",
       "links": [
         {
-          "t": "FEP → AGI: do prompt à intenção",
+          "t": "FEP → AGI: do prompt à intençêo",
           "href": "https://linnoff88-dev.github.io/
           "icone": "camadas"
         },
         {
-          "t": "FEC: Formação de Engenharia de Contexto",
+          "t": "FEC: Formaçêo de Engenharia de Contexto",
           "href": "https://linnoff88-dev.github.io/
           "icone": "pasta"
         },

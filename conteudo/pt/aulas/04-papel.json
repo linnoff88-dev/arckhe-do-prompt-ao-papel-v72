@@ -3,10 +3,10 @@
   "num": 4,
   "menu": "Papel",
   "titulo": "A era do papel: brilhante, mas novo na empresa",
-  "titulo_curto": "A ficha de função",
+  "titulo_curto": "A ficha de funçêo",
   "minutos": 16,
-  "lead": "A Anthropic, a empresa que faz o Claude, recomenda tratar o Claude como um funcionário brilhante, mas novo, que ainda não conhece as suas normas. Quem já contratou gente sabe o que isso pede: objetivo claro, o contexto de onde ele veio e um exemplo de trabalho bem feito. Nesta aula você junta as três coisas numa ficha de função e confere a sua ficha na própria página.",
-  "objetivo": "escrever a ficha de função de um agente com papel, objetivo medível, contexto, exemplo e fronteira.",
+  "lead": "A Anthropic, a empresa que faz o Claude, recomenda tratar o Claude como um funcionário brilhante, mas novo, que ainda nêo conhece as suas normas. Quem já contratou gente sabe o que isso pede: objetivo claro, o contexto de onde ele veio e um exemplo de trabalho bem feito. Nesta aula você junta as três coisas numa ficha de funçêo e confere a sua ficha na própria página.",
+  "objetivo": "escrever a ficha de funçêo de um agente com papel, objetivo medível, contexto, exemplo e fronteira.",
   "competencias": [
     "definir-papel-do-agente",
     "delegar-com-ficha",
@@ -30,7 +30,7 @@
       "t": "Escrever e conferir a sua ficha"
     }
   ],
-  "hero_alt": "Sala de reunião escura: um gestor entrega um crachá a um robô humanoide no primeiro dia de trabalho.",
+  "hero_alt": "Sala de reuniêo escura: um gestor entrega um crachá a um robô humanoide no primeiro dia de trabalho.",
   "secoes": [
     {
       "tipo": "diagrama",
@@ -49,7 +49,7 @@
               "t": "como medir"
             }
           ],
-          "detalhe": "O que precisa acontecer e como saber que aconteceu. Se não dá para medir, o agente não consegue conferir o próprio trabalho e não sabe quando parar (aula 5)."
+          "detalhe": "O que precisa acontecer e como saber que aconteceu. Se nêo dá para medir, o agente nêo consegue conferir o próprio trabalho e nêo sabe quando parar (aula 5)."
         },
         {
           "icone": "pasta",
@@ -77,11 +77,11 @@
               "t": "os erros a evitar"
             }
           ],
-          "detalhe": "\"Faça um ótimo trabalho\" não funciona: ele não sabe o que é ótimo para você. Faça a tarefa uma vez, você mesmo, bem feita. É o tempo mais bem gasto, e provavelmente a última vez que você faz essa tarefa."
+          "detalhe": "\"Faça um ótimo trabalho\" nêo funciona: ele nêo sabe o que é ótimo para você. Faça a tarefa uma vez, você mesmo, bem feita. É o tempo mais bem gasto, e provavelmente a última vez que você faz essa tarefa."
         },
         {
           "icone": "usuario",
-          "titulo": "Ficha de função",
+          "titulo": "Ficha de funçêo",
           "sub": "o papel inteiro",
           "forte": true,
           "itens": [
@@ -101,8 +101,8 @@
       "legenda": "Um esboço bem feito e conferência de vez em quando: é assim que se delega para alguém capaz.",
       "rolagem": true,
       "rolagem_fim": {
-        "titulo": "Do pedido à função",
-        "texto": "Objetivo medível, contexto e exemplo, mais fronteira e conferência: a ficha de função. Você para de escrever o trabalho e passa a gerenciá-lo."
+        "titulo": "Do pedido à funçêo",
+        "texto": "Objetivo medível, contexto e exemplo, mais fronteira e conferência: a ficha de funçêo. Você para de escrever o trabalho e passa a gerenciá-lo."
       }
     },
     {
@@ -114,12 +114,12 @@
           "titulo": "Reescrever o app",
           "sub": "mais de 2 semanas",
           "texto": [
-            "O criador do Claude Code (um agente de programação) quis o aplicativo de computador reescrito em Swift, outra linguagem de programação.",
-            "O pedido trazia o próprio teste: rodar o app antigo, tirar print, comparar as telas ponto por ponto com o novo e não parar até ficar igual. O agente rodou sozinho por mais de duas semanas."
+            "O criador do Claude Code (um agente de programaçêo) quis o aplicativo de computador reescrito em Swift, outra linguagem de programaçêo.",
+            "O pedido trazia o próprio teste: rodar o app antigo, tirar print, comparar as telas ponto por ponto com o novo e nêo parar até ficar igual. O agente rodou sozinho por mais de duas semanas."
           ],
           "exemplo": {
             "rot": "Por que funciona",
-            "texto": "O objetivo se mede sozinho: a tela nova é igual à antiga ou não é."
+            "texto": "O objetivo se mede sozinho: a tela nova é igual à antiga ou nêo é."
           }
         },
         {
@@ -143,15 +143,15 @@
           ],
           "exemplo": {
             "rot": "Por que funciona",
-            "texto": "\"Perfeito\" ali tinha medida: o compilador passa nos testes ou não passa."
+            "texto": "\"Perfeito\" ali tinha medida: o compilador passa nos testes ou nêo passa."
           }
         },
         {
-          "titulo": "O padrão",
+          "titulo": "O padrêo",
           "sub": "o que se repete",
           "texto": [
-            "Os pedidos são curtos, como os que você faria para alguém da equipe. O que eles têm é um jeito de medir o resultado e o contexto à mão.",
-            "É isso que a ficha de função força você a escrever."
+            "Os pedidos sêo curtos, como os que você faria para alguém da equipe. O que eles têm é um jeito de medir o resultado e o contexto à mêo.",
+            "É isso que a ficha de funçêo força você a escrever."
           ],
           "exemplo": {
             "rot": "Para levar",
@@ -162,13 +162,13 @@
     },
     {
       "tipo": "codigo",
-      "titulo": "Modelo: a ficha de função",
+      "titulo": "Modelo: a ficha de funçêo",
       "sub": "Uma linha por campo. Troque o texto entre < > pelo seu.",
       "blocos": [
         {
           "rot": "ficha-funcao.txt",
           "icone": "arquivo",
-          "conteudo": "Papel: <a função, em uma frase: você cuida de ...>\nObjetivo: <o que precisa acontecer>\nMedida: <como saber que terminou e ficou bom>\nContexto: <onde estão as regras, as lições e os arquivos; por que a tarefa existe>\nExemplo: <onde está o trabalho de referência feito por você>\nFronteira: <o que nunca pode fazer>\nConferência: <quando e como você olha o trabalho>"
+          "conteudo": "Papel: <a funçêo, em uma frase: você cuida de ...>\nObjetivo: <o que precisa acontecer>\nMedida: <como saber que terminou e ficou bom>\nContexto: <onde estêo as regras, as lições e os arquivos; por que a tarefa existe>\nExemplo: <onde está o trabalho de referência feito por você>\nFronteira: <o que nunca pode fazer>\nConferência: <quando e como você olha o trabalho>"
         },
         {
           "rot": "Como entregar a ficha ao agente",
@@ -181,7 +181,7 @@
         "abas": [
           {
             "rot": "Ficha preenchida",
-            "html": "<ul><li><b>Papel:</b> você cuida do comunicado semanal da escola aos pais.</li><li><b>Objetivo:</b> toda sexta, um comunicado com o que muda na semana seguinte.</li><li><b>Medida:</b> cabe numa tela de celular, cita a data de cada mudança e eu aprovo sem pedir correção.</li><li><b>Contexto:</b> regras e lições nas instruções do projeto; o calendário enviado ao projeto (calendario.pdf).</li><li><b>Exemplo:</b> o arquivo comunicado-modelo.txt enviado ao projeto, escrito por mim.</li><li><b>Fronteira:</b> nunca prometer transporte nem citar nome de aluno.</li><li><b>Conferência:</b> eu leio toda sexta às 16h antes de enviar.</li></ul>"
+            "html": "<ul><li><b>Papel:</b> você cuida do comunicado semanal da escola aos pais.</li><li><b>Objetivo:</b> toda sexta, um comunicado com o que muda na semana seguinte.</li><li><b>Medida:</b> cabe numa tela de celular, cita a data de cada mudança e eu aprovo sem pedir correçêo.</li><li><b>Contexto:</b> regras e lições nas instruções do projeto; o calendário enviado ao projeto (calendario.pdf).</li><li><b>Exemplo:</b> o arquivo comunicado-modelo.txt enviado ao projeto, escrito por mim.</li><li><b>Fronteira:</b> nunca prometer transporte nem citar nome de aluno.</li><li><b>Conferência:</b> eu leio toda sexta às 16h antes de enviar.</li></ul>"
           },
           {
             "rot": "Outra ficha (loja)",
@@ -189,11 +189,11 @@
           },
           {
             "rot": "Outra ficha (RH)",
-            "html": "<ul><li><b>Papel:</b> você escreve os anúncios de vaga da empresa.</li><li><b>Objetivo:</b> um anúncio por vaga aberta, a partir do pedido do gestor.</li><li><b>Medida:</b> cabe em uma tela de celular, cita salário, local e jornada, e o gestor aprova sem correção.</li><li><b>Contexto:</b> política de vagas e tom da empresa nas instruções do projeto.</li><li><b>Exemplo:</b> o anúncio da vaga de conferente, escrito por mim.</li><li><b>Fronteira:</b> nunca pedir idade, foto ou estado civil.</li><li><b>Conferência:</b> eu leio antes de publicar, no mesmo dia.</li></ul>"
+            "html": "<ul><li><b>Papel:</b> você escreve os anúncios de vaga da empresa.</li><li><b>Objetivo:</b> um anúncio por vaga aberta, a partir do pedido do gestor.</li><li><b>Medida:</b> cabe em uma tela de celular, cita salário, local e jornada, e o gestor aprova sem correçêo.</li><li><b>Contexto:</b> política de vagas e tom da empresa nas instruções do projeto.</li><li><b>Exemplo:</b> o anúncio da vaga de conferente, escrito por mim.</li><li><b>Fronteira:</b> nunca pedir idade, foto ou estado civil.</li><li><b>Conferência:</b> eu leio antes de publicar, no mesmo dia.</li></ul>"
           },
           {
             "rot": "Erros comuns",
-            "html": "<ul><li><b>Papel de prestígio</b> (\"você é o melhor redator\"): não é função. Função diz do que ele cuida.</li><li><b>Medida vaga</b> (\"ficar bom\"): ele não sabe quando parar.</li><li><b>Sem exemplo</b>: \"ótimo\" para ele não é o seu \"ótimo\".</li></ul>"
+            "html": "<ul><li><b>Papel de prestígio</b> (\"você é o melhor redator\"): nêo é funçêo. Funçêo diz do que ele cuida.</li><li><b>Medida vaga</b> (\"ficar bom\"): ele nêo sabe quando parar.</li><li><b>Sem exemplo</b>: \"ótimo\" para ele nêo é o seu \"ótimo\".</li></ul>"
           },
           {
             "rot": "Onde a ficha fica",
@@ -205,9 +205,9 @@
     {
       "tipo": "conferidor",
       "titulo": "Confira a sua ficha",
-      "sub": "Cole a sua ficha (ou carregue o .txt). A página confere os sete campos, recusa vazio e adjetivo solto (\"quando der\", \"do seu jeito\", \"bom\", \"bonito\") e pede na Medida um número ou teste junto do que se mede (\"3 linhas\", \"cita a data\", \"aprovado sem correção\"). O OK é uma checagem de forma, não garante que a medida é boa: quem decide é você, na prática abaixo. A aula 5 aprofunda.",
+      "sub": "Cole a sua ficha (ou carregue o .txt). A página confere os sete campos, recusa vazio e adjetivo solto (\"quando der\", \"do seu jeito\", \"bom\", \"bonito\") e pede na Medida um número ou teste junto do que se mede (\"3 linhas\", \"cita a data\", \"aprovado sem correçêo\"). O OK é uma checagem de forma, nêo garante que a medida é boa: quem decide é você, na prática abaixo. A aula 5 aprofunda.",
       "arquivo": "ficha-funcao.txt",
-      "rot": "Cole aqui a sua ficha de função (um campo por linha):",
+      "rot": "Cole aqui a sua ficha de funçêo (um campo por linha):",
       "modelo": "Papel: ...\nObjetivo: ...\nMedida: ...\nContexto: ...\nExemplo: ...\nFronteira: ...\nConferência: ...",
       "regras": [
         {
@@ -385,7 +385,7 @@
           "tipo": "termos",
           "grupos": [
             {
-              "rot": "na Medida o que se mede (linhas, segundos, tela, data, total, correção…)",
+              "rot": "na Medida o que se mede (linhas, segundos, tela, data, total, correçêo…)",
               "campo": "Medida",
               "termos": [
                 "linha / linhas / line / lines / línea / líneas",
@@ -398,7 +398,7 @@
                 "tela / screen / pantalla",
                 "data / date / fecha",
                 "erro / erros / error / errors / errores",
-                "correção / correções / correction / corrections / corrección / correcciones",
+                "correçêo / correções / correction / corrections / corrección / correcciones",
                 "item / itens / items / ítem / ítems",
                 "total / totais / totals / totales",
                 "preço / preços / price / prices / precio / precios",
@@ -407,7 +407,7 @@
                 "reais / real / R$",
                 "vezes / times / veces",
                 "por cento / percent / %",
-                "medição / medições / measurement / measurements / medición / mediciones",
+                "mediçêo / medições / measurement / measurements / medición / mediciones",
                 "resposta / respostas / reply / replies / answer / respuesta / respuestas",
                 "pedido / pedidos / request / requests / order / orders",
                 "página / page / pages / páginas",
@@ -521,12 +521,12 @@
                 "horário / horários / time / times / horario / horarios",
                 "turno / turnos / shift / shifts",
                 "consulta / consultas / appointment / appointments",
-                "sessão / sessões / session / sessions / sesión / sesiones",
+                "sessêo / sessões / session / sessions / sesión / sesiones",
                 "valor / valores / amount / amounts / monto / montos",
                 "e-mail / e-mails / email / emails / correo / correos",
                 "mudança / mudanças / cambio / cambios / change / changes",
                 "peso / pesos / dólar / dólares / dollar / dollars / $",
-                "cotização / cotizações / orçamento / orçamentos / cotización / cotizaciones / quote / quotes",
+                "cotizaçêo / cotizações / orçamento / orçamentos / cotización / cotizaciones / quote / quotes",
                 "factura / facturas / fatura / faturas / invoice / invoices / nota fiscal"
               ]
             }
@@ -697,8 +697,8 @@
         }
       ],
       "ok": "OK: ficha com os {n} campos preenchidos",
-      "exemplo": "Papel: você cuida do comunicado semanal da escola aos pais.\nObjetivo: toda sexta, um comunicado com o que muda na semana seguinte.\nMedida: cabe numa tela de celular, cita a data de cada mudança e eu aprovo sem pedir correção.\nContexto: regras e lições nas instruções do projeto; o calendário enviado ao projeto (calendario.pdf).\nExemplo: o arquivo comunicado-modelo.txt enviado ao projeto, escrito por mim.\nFronteira: nunca prometer transporte nem citar nome de aluno.\nConferência: eu leio toda sexta às 16h antes de enviar.",
-      "exemplo_errado": "Papel: você cuida do comunicado semanal da escola aos pais.\nObjetivo: toda sexta, um comunicado com o que muda na semana.\nMedida: ficar bonito e profissional, versão 2.\nContexto: regras e lições nas instruções do projeto.\nExemplo: o comunicado de setembro, escrito por mim.\nFronteira: nunca citar nome de aluno.\nConferência: eu leio toda sexta."
+      "exemplo": "Papel: você cuida do comunicado semanal da escola aos pais.\nObjetivo: toda sexta, um comunicado com o que muda na semana seguinte.\nMedida: cabe numa tela de celular, cita a data de cada mudança e eu aprovo sem pedir correçêo.\nContexto: regras e lições nas instruções do projeto; o calendário enviado ao projeto (calendario.pdf).\nExemplo: o arquivo comunicado-modelo.txt enviado ao projeto, escrito por mim.\nFronteira: nunca prometer transporte nem citar nome de aluno.\nConferência: eu leio toda sexta às 16h antes de enviar.",
+      "exemplo_errado": "Papel: você cuida do comunicado semanal da escola aos pais.\nObjetivo: toda sexta, um comunicado com o que muda na semana.\nMedida: ficar bonito e profissional, versêo 2.\nContexto: regras e lições nas instruções do projeto.\nExemplo: o comunicado de setembro, escrito por mim.\nFronteira: nunca citar nome de aluno.\nConferência: eu leio toda sexta."
     },
     {
       "tipo": "pratica",
@@ -723,7 +723,7 @@
           "id": "e3",
           "titulo": "E3 · A primeira entrega",
           "min": "20 min",
-          "texto": "Entregue a ficha ao agente (no chat: cole nas instruções do projeto e abra uma conversa nova; no terminal: salve na pasta) e peça a primeira execução com o pedido do modelo.",
+          "texto": "Entregue a ficha ao agente (no chat: cole nas instruções do projeto e abra uma conversa nova; no terminal: salve na pasta) e peça a primeira execuçêo com o pedido do modelo.",
           "pronto": "o agente descreveu como vai se conferir pela Medida e entregou um resultado que você comparou com a referência."
         }
       ]
@@ -737,15 +737,15 @@
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
-          "p": "Quais são os três passos para delegar a um agente?",
+          "p": "Quais sêo os três passos para delegar a um agente?",
           "opcoes": [
             "Persona, tom e tamanho do texto.",
             "Ferramenta, modelo e preço.",
             "Objetivo claro, contexto e um exemplo de trabalho bem feito.",
-            "Prompt longo com cada passo, revisão linha a linha e aprovação final."
+            "Prompt longo com cada passo, revisêo linha a linha e aprovaçêo final."
           ],
           "certa": 2,
           "explica": "É o que você daria a alguém brilhante, mas novo na empresa: o que fazer e como medir, de onde veio, e como é um trabalho bem feito.",
@@ -756,12 +756,12 @@
           "p": "Por que fazer a tarefa uma vez você mesmo antes de delegar?",
           "opcoes": [
             "Porque o agente precisa de um exemplo do que é ótimo para você.",
-            "Porque o agente não consegue fazer na primeira vez.",
+            "Porque o agente nêo consegue fazer na primeira vez.",
             "Porque o agente copia o seu jeito de escrever pelo histórico.",
             "Para ter certeza de que você ainda sabe fazer e pode substituir o agente se ele falhar."
           ],
           "certa": 0,
-          "explica": "\"Faça um ótimo trabalho\" não diz nada. O exemplo mostra o padrão. É tempo bem gasto: provavelmente a última vez que você faz essa tarefa.",
+          "explica": "\"Faça um ótimo trabalho\" nêo diz nada. O exemplo mostra o padrêo. É tempo bem gasto: provavelmente a última vez que você faz essa tarefa.",
           "ref": "diagrama"
         },
         {
@@ -770,7 +770,7 @@
             "Um prompt de várias páginas descrevendo cada passo da reescrita, tela por tela.",
             "Uma medida no próprio pedido: comparar as telas ponto por ponto até ficar igual.",
             "Uma pessoa revisando cada resposta.",
-            "Um modelo que não erra."
+            "Um modelo que nêo erra."
           ],
           "certa": 1,
           "explica": "O pedido era curto, mas trazia o teste. Com medida clara, o agente se confere e sabe quando terminou.",
@@ -782,10 +782,10 @@
             "Nada, é um bom papel.",
             "Falta dizer o idioma.",
             "Deveria ser mais longo, com os anos de experiência e os prêmios do redator.",
-            "É título de prestígio, não função: não diz do que ele cuida."
+            "É título de prestígio, nêo funçêo: nêo diz do que ele cuida."
           ],
           "certa": 3,
-          "explica": "Função diz do que o agente cuida (\"você cuida do comunicado semanal aos pais\"). Prestígio não muda o resultado, como vimos na aula 2.",
+          "explica": "Funçêo diz do que o agente cuida (\"você cuida do comunicado semanal aos pais\"). Prestígio nêo muda o resultado, como vimos na aula 2.",
           "ref": "codigo"
         }
       ]
@@ -796,7 +796,7 @@
       "itens": [
         {
           "t": "Brilhante, mas novo",
-          "texto": "Delegue como para alguém capaz que ainda não conhece a casa."
+          "texto": "Delegue como para alguém capaz que ainda nêo conhece a casa."
         },
         {
           "t": "Três passos",

@@ -52,7 +52,7 @@
               "t": "maior: o que importa"
             }
           ],
-          "detalhe": "Nem toda tarefa precisa do modelo mais forte. Classificar mensagens ou extrair um campo vai no menor; escrever e revisar no do meio; decisão e o que faz diferença de verdade no maior. Os nomes, do menor para o maior: no Claude, Haiku → Sonnet → Opus ou Fable (Fable é o mais novo e mais forte deles); no ChatGPT, as versões \"mini\" → o modelo padrão → as de raciocínio e as \"Pro\"; no Gemini, Flash → Pro. O modelo se escolhe no seletor no alto da conversa; o que aparece ali depende do seu plano."
+          "detalhe": "Nem toda tarefa precisa do modelo mais forte. Classificar mensagens ou extrair um campo vai no menor; escrever e revisar no do meio; decisêo e o que faz diferença de verdade no maior. Os nomes, do menor para o maior: no Claude, Haiku → Sonnet → Opus ou Fable (Fable é o mais novo e mais forte deles); no ChatGPT, as versões \"mini\" → o modelo padrêo → as de raciocínio e as \"Pro\"; no Gemini, Flash → Pro. O modelo se escolhe no seletor no alto da conversa; o que aparece ali depende do seu plano."
         },
         {
           "icone": "grafico",
@@ -81,7 +81,7 @@
               "t": "em pouco tempo"
             }
           ],
-          "detalhe": "Vale para quem paga por uso pela API (o acesso direto ao modelo por programa, cobrado por volume). Se você repete o mesmo começo de conversa (as regras, a ficha, os documentos) em pouco tempo, essa parte é guardada e sai por uma fração do preço. Por isso vale manter o começo fixo e deixar o que muda no fim."
+          "detalhe": "Vale para quem paga por uso pela API (o acesso direto ao modelo por programa, cobrado por volume). Se você repete o mesmo começo de conversa (as regras, a ficha, os documentos) em pouco tempo, essa parte é guardada e sai por uma fraçêo do preço. Por isso vale manter o começo fixo e deixar o que muda no fim."
         },
         {
           "icone": "relogio",
@@ -107,7 +107,7 @@
       "sub": "Três perguntas para cada tarefa recorrente. Toque ou clique em cada uma.",
       "passos": [
         {
-          "titulo": "Quão difícil?",
+          "titulo": "Quêo difícil?",
           "sub": "escolhe o modelo",
           "texto": [
             "Simples e repetitiva vai no menor; texto e análise do dia a dia no do meio; o que tem risco ou decide dinheiro no maior.",
@@ -122,8 +122,8 @@
           "titulo": "Só assinatura?",
           "sub": "o que conta",
           "texto": [
-            "Se você usa só a assinatura do chat, cache e lote não aparecem para você: quem cuida disso é o fornecedor.",
-            "O que conta é escolher o modelo certo, não repetir o contexto à toa (o projeto já guarda) e observar quando você bate no limite."
+            "Se você usa só a assinatura do chat, cache e lote nêo aparecem para você: quem cuida disso é o fornecedor.",
+            "O que conta é escolher o modelo certo, nêo repetir o contexto à toa (o projeto já guarda) e observar quando você bate no limite."
           ],
           "exemplo": {
             "rot": "Exemplo",
@@ -164,12 +164,12 @@
         {
           "rot": "Custo por tarefa (documento ou planilha)",
           "icone": "grafico",
-          "conteudo": "# Custo por tarefa · <agente> · semana de <data>\n\n| tarefa | vezes na semana | modelo | motivo | na hora ou em lote | começo fixo (cache)? | uso anotado |\n|---|---|---|---|---|---|---|\n| <tarefa 1> | | menor / meio / maior | <por quê, em uma frase> | hora / lote | sim / não | <bateu no limite? ou o valor> |\n| <tarefa 2> | | | | | | |\n| <tarefa 3> | | | | | | |\n| <tarefa 4> | | | | | | |\n| <tarefa 5> | | | | | | |\n\nDecisão da semana: <o que muda de modelo ou vai para o lote>"
+          "conteudo": "# Custo por tarefa · <agente> · semana de <data>\n\n| tarefa | vezes na semana | modelo | motivo | na hora ou em lote | começo fixo (cache)? | uso anotado |\n|---|---|---|---|---|---|---|\n| <tarefa 1> | | menor / meio / maior | <por quê, em uma frase> | hora / lote | sim / nêo | <bateu no limite? ou o valor> |\n| <tarefa 2> | | | | | | |\n| <tarefa 3> | | | | | | |\n| <tarefa 4> | | | | | | |\n| <tarefa 5> | | | | | | |\n\nDecisêo da semana: <o que muda de modelo ou vai para o lote>"
         },
         {
           "rot": "Pedido: revisar o custo com o próprio agente",
           "icone": "chat",
-          "conteudo": "Abaixo está a lista das tarefas que você faz para mim toda semana.\nPara cada uma, diga:\n1. se ela precisa mesmo do modelo maior, ou se o menor dá conta (e como eu testo isso);\n2. se ela pode esperar e ir em lote;\n3. se o começo do pedido é sempre igual (e o que eu deixo fixo para aproveitar o cache).\nResponda numa tabela e não mude nada ainda.\n\n<lista de tarefas>"
+          "conteudo": "Abaixo está a lista das tarefas que você faz para mim toda semana.\nPara cada uma, diga:\n1. se ela precisa mesmo do modelo maior, ou se o menor dá conta (e como eu testo isso);\n2. se ela pode esperar e ir em lote;\n3. se o começo do pedido é sempre igual (e o que eu deixo fixo para aproveitar o cache).\nResponda numa tabela e nêo mude nada ainda.\n\n<lista de tarefas>"
         }
       ],
       "saida": {
@@ -177,7 +177,7 @@
         "abas": [
           {
             "rot": "Exemplo preenchido",
-            "html": "<ul><li><b>Separar e-mails por assunto</b> · 50×/semana · menor · hora · começo fixo.</li><li><b>Resumo das avaliações</b> · 1×/semana · meio · lote.</li><li><b>Proposta para cliente</b> · 3×/semana · maior · hora.</li></ul><p>Decisão: o resumo vai para o lote; a separação de e-mails desce para o modelo menor depois de passar no teste de 5 rodadas.</p>"
+            "html": "<ul><li><b>Separar e-mails por assunto</b> · 50×/semana · menor · hora · começo fixo.</li><li><b>Resumo das avaliações</b> · 1×/semana · meio · lote.</li><li><b>Proposta para cliente</b> · 3×/semana · maior · hora.</li></ul><p>Decisêo: o resumo vai para o lote; a separaçêo de e-mails desce para o modelo menor depois de passar no teste de 5 rodadas.</p>"
           },
           {
             "rot": "Erros comuns",
@@ -208,10 +208,10 @@
         },
         {
           "id": "e3",
-          "titulo": "E3 · Uma decisão",
+          "titulo": "E3 · Uma decisêo",
           "min": "15 min",
-          "texto": "Com a semana na mão, escolha uma mudança (modelo menor, lote ou começo fixo) e teste com o procedimento da aula 6.",
-          "pronto": "a linha \"Decisão da semana\" tem uma mudança testada, com o resultado da comparação."
+          "texto": "Com a semana na mêo, escolha uma mudança (modelo menor, lote ou começo fixo) e teste com o procedimento da aula 6.",
+          "pronto": "a linha \"Decisêo da semana\" tem uma mudança testada, com o resultado da comparaçêo."
         }
       ]
     },
@@ -224,14 +224,14 @@
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
           "p": "Separar 50 e-mails por assunto toda semana. Qual escolha faz mais sentido?",
           "opcoes": [
-            "O modelo maior, por garantia, já que errar na separação custa mais que o modelo.",
+            "O modelo maior, por garantia, já que errar na separaçêo custa mais que o modelo.",
             "Testar no modelo menor e ficar com ele se passar nas rodadas.",
-            "Fazer à mão para não gastar.",
+            "Fazer à mêo para nêo gastar.",
             "Trocar de fornecedor de IA."
           ],
           "certa": 1,
@@ -255,12 +255,12 @@
           "p": "Cache e lote valem para quem?",
           "opcoes": [
             "Para quem paga por uso pela API; na assinatura, quem cuida disso é o fornecedor.",
-            "Para todo mundo que usa o ChatGPT, sem nenhuma configuração.",
+            "Para todo mundo que usa o ChatGPT, sem nenhuma configuraçêo.",
             "Só para quem usa o modelo menor.",
             "Só para quem trabalha no terminal."
           ],
           "certa": 0,
-          "explica": "Cache e lote são recursos da API, cobrada por volume. Quem usa só a assinatura cuida do modelo certo e do limite.",
+          "explica": "Cache e lote sêo recursos da API, cobrada por volume. Quem usa só a assinatura cuida do modelo certo e do limite.",
           "ref": "diagrama"
         }
       ]
@@ -275,11 +275,11 @@
         },
         {
           "t": "Cache e lote",
-          "texto": "Começo fixo sai por uma fração; o que pode esperar vai em lote pela metade."
+          "texto": "Começo fixo sai por uma fraçêo; o que pode esperar vai em lote pela metade."
         },
         {
           "t": "Conta acompanhada",
-          "texto": "Uso anotado por tarefa, toda semana, e uma decisão testada de cada vez."
+          "texto": "Uso anotado por tarefa, toda semana, e uma decisêo testada de cada vez."
         }
       ]
     },

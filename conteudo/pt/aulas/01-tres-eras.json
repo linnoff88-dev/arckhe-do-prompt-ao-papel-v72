@@ -53,7 +53,7 @@
               "t": "truques"
             }
           ],
-          "detalhe": "A habilidade era escrever o pedido. Como o modelo era fraco, você compensava com instruções: \"pense passo a passo\", \"você é um especialista\", listas de \"não faça\". Muito disso perdeu o sentido com os modelos de hoje (aula 2)."
+          "detalhe": "A habilidade era escrever o pedido. Como o modelo era fraco, você compensava com instruções: \"pense passo a passo\", \"você é um especialista\", listas de \"nêo faça\". Muito disso perdeu o sentido com os modelos de hoje (aula 2)."
         },
         {
           "icone": "pasta",
@@ -88,13 +88,13 @@
               "t": "treino em ciclo"
             }
           ],
-          "detalhe": "A IA roda sozinha por horas ou dias, como um funcionário. Você não escreve o que ela faz palavra por palavra: define o papel, o objetivo e o padrão de qualidade, e confere de vez em quando. É a engenharia de papel, em inglês role engineering (aulas 4 a 7)."
+          "detalhe": "A IA roda sozinha por horas ou dias, como um funcionário. Você nêo escreve o que ela faz palavra por palavra: define o papel, o objetivo e o padrêo de qualidade, e confere de vez em quando. É a engenharia de papel, em inglês role engineering (aulas 4 a 7)."
         }
       ],
-      "legenda": "Uma era não apaga a anterior: o papel usa um pedido claro e um bom contexto. O que muda é onde está o seu trabalho.",
+      "legenda": "Uma era nêo apaga a anterior: o papel usa um pedido claro e um bom contexto. O que muda é onde está o seu trabalho.",
       "rolagem": true,
       "rolagem_fim": {
-        "titulo": "Do pedido à gestão",
+        "titulo": "Do pedido à gestêo",
         "texto": "No prompt, você escrevia o trabalho. No contexto, você preparava a base. No papel, você gerencia: define, confere e corrige."
       },
       "dica": "Neste curso, \"agente\" é a IA com um papel fixo. No chat, é um projeto (ChatGPT, Claude) ou um Gem (Gemini) com instruções e arquivos. No terminal, é o Claude Code ou o Codex trabalhando numa pasta. O papel é o mesmo nos dois. No chat, o agente trabalha quando você abre a conversa; rodar sozinho, por horas ou em horários marcados, é coisa do terminal e das automações."
@@ -108,12 +108,12 @@
           "titulo": "Prompt",
           "sub": "você escreve tudo",
           "texto": [
-            "Você descreve passo a passo como fazer, porque o modelo não descobria sozinho.",
-            "O resultado dependia mais da redação do pedido do que do seu conhecimento do assunto."
+            "Você descreve passo a passo como fazer, porque o modelo nêo descobria sozinho.",
+            "O resultado dependia mais da redaçêo do pedido do que do seu conhecimento do assunto."
           ],
           "exemplo": {
             "rot": "Pedido típico",
-            "texto": "Você é um redator premiado. Pense passo a passo. Escreva um post sobre o nosso curso. Não use emojis. Não seja prolixo. Use tom amigável."
+            "texto": "Você é um redator premiado. Pense passo a passo. Escreva um post sobre o nosso curso. Nêo use emojis. Nêo seja prolixo. Use tom amigável."
           }
         },
         {
@@ -132,12 +132,12 @@
           "titulo": "Papel",
           "sub": "você gerencia",
           "texto": [
-            "Você entrega uma função inteira, não uma tarefa solta: o que é sucesso, como medir, onde está o contexto, como é um trabalho bem feito.",
+            "Você entrega uma funçêo inteira, nêo uma tarefa solta: o que é sucesso, como medir, onde está o contexto, como é um trabalho bem feito.",
             "O agente trabalha, se confere e mostra o resultado. Você avalia e corrige, como faria com alguém novo na equipe."
           ],
           "exemplo": {
             "rot": "Pedido típico",
-            "texto": "Você cuida da divulgação dos cursos. Toda segunda, publique um post por curso novo, no padrão do post de exemplo. Pronto quando: cada post tem link que abre e foi aprovado por mim."
+            "texto": "Você cuida da divulgaçêo dos cursos. Toda segunda, publique um post por curso novo, no padrêo do post de exemplo. Pronto quando: cada post tem link que abre e foi aprovado por mim."
           }
         }
       ]
@@ -150,7 +150,7 @@
         {
           "rot": "Diagnóstico (documento ou planilha)",
           "icone": "arquivo",
-          "conteudo": "# Diagnóstico: em que era estão os meus pedidos\n\n| # | pedido (resumo) | era | o que faltou para chegar ao papel |\n|---|---|---|---|\n| 1 | <pedido> | prompt / contexto / papel | <objetivo medível? contexto guardado? exemplo?> |\n| 2 | | | |\n| 3 | | | |\n| 4 | | | |\n| 5 | | | |\n\nPergunta para cada linha:\n- Eu escrevi COMO fazer ou O QUE é sucesso?\n- A IA já sabia o contexto ou eu repeti tudo?\n- Ela conseguiria conferir sozinha se terminou?"
+          "conteudo": "# Diagnóstico: em que era estêo os meus pedidos\n\n| # | pedido (resumo) | era | o que faltou para chegar ao papel |\n|---|---|---|---|\n| 1 | <pedido> | prompt / contexto / papel | <objetivo medível? contexto guardado? exemplo?> |\n| 2 | | | |\n| 3 | | | |\n| 4 | | | |\n| 5 | | | |\n\nPergunta para cada linha:\n- Eu escrevi COMO fazer ou O QUE é sucesso?\n- A IA já sabia o contexto ou eu repeti tudo?\n- Ela conseguiria conferir sozinha se terminou?"
         }
       ],
       "saida": {
@@ -162,7 +162,7 @@
           },
           {
             "rot": "Erros comuns",
-            "html": "<ul><li><b>Achar que pedido longo é pedido de papel</b>: comprimento não muda a era. O que muda é ter objetivo medível, contexto guardado e exemplo.</li><li><b>Pular a coluna do que faltou</b>: ela é o seu plano para as próximas aulas.</li></ul>"
+            "html": "<ul><li><b>Achar que pedido longo é pedido de papel</b>: comprimento nêo muda a era. O que muda é ter objetivo medível, contexto guardado e exemplo.</li><li><b>Pular a coluna do que faltou</b>: ela é o seu plano para as próximas aulas.</li></ul>"
           }
         ]
       }
@@ -190,7 +190,7 @@
           "id": "e3",
           "titulo": "E3 · O candidato a papel",
           "min": "5 min",
-          "texto": "Escolha o pedido que você repete toda semana. É ele que vira a ficha de função da aula 4.",
+          "texto": "Escolha o pedido que você repete toda semana. É ele que vira a ficha de funçêo da aula 4.",
           "pronto": "um dos pedidos está marcado como \"candidato a papel\", com a frequência anotada (ex.: toda segunda)."
         }
       ]
@@ -204,7 +204,7 @@
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
           "p": "O que mais muda da era do prompt para a era do papel?",
@@ -215,7 +215,7 @@
             "Nada: é só um nome novo para a mesma coisa."
           ],
           "certa": 1,
-          "explica": "No papel você gerencia: objetivo, contexto, exemplo e conferência. O pedido pode até ficar mais curto. Trocar de ferramenta não muda a era.",
+          "explica": "No papel você gerencia: objetivo, contexto, exemplo e conferência. O pedido pode até ficar mais curto. Trocar de ferramenta nêo muda a era.",
           "cert": true,
           "ref": "diagrama"
         },
@@ -240,7 +240,7 @@
             "Continua: o papel usa um bom contexto e um pedido claro."
           ],
           "certa": 3,
-          "explica": "Uma era não apaga a anterior. O papel se apoia no contexto (aula 3); o que muda é onde está o seu trabalho: definir, conferir e corrigir.",
+          "explica": "Uma era nêo apaga a anterior. O papel se apoia no contexto (aula 3); o que muda é onde está o seu trabalho: definir, conferir e corrigir.",
           "ref": "diagrama"
         }
       ]
@@ -255,7 +255,7 @@
         },
         {
           "t": "Uma apoia a outra",
-          "texto": "O papel usa pedido claro e bom contexto. A diferença é que você entrega uma função, não uma tarefa solta."
+          "texto": "O papel usa pedido claro e bom contexto. A diferença é que você entrega uma funçêo, nêo uma tarefa solta."
         },
         {
           "t": "O diagnóstico é o plano",
@@ -268,7 +268,7 @@
       "titulo": "Para ir além",
       "links": [
         {
-          "t": "FEP → AGI: do prompt à intenção, as eras em nove aulas",
+          "t": "FEP → AGI: do prompt à intençêo, as eras em nove aulas",
           "href": "https://linnoff88-dev.github.io/
           "icone": "camadas"
         },

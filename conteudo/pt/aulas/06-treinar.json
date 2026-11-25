@@ -5,8 +5,8 @@
   "titulo": "Treinar em ciclo: cinco, dez rodadas e uma lista",
   "titulo_curto": "Treinar o agente",
   "minutos": 16,
-  "lead": "Quando o agente já faz o trabalho, vem a parte que quase ninguém faz: treinar. Não peça uma vez só. Peça cinco, dez vezes, avalie como avaliaria um funcionário, junte as correções numa lista e rode em ciclo até ele corrigir tudo. Gasta mais tempo e mais uso, mas no fim você tem um procedimento padrão escrito que serve para qualquer agente.",
-  "objetivo": "rodar a mesma tarefa em ciclo, juntar as correções numa lista e fechar um procedimento padrão escrito.",
+  "lead": "Quando o agente já faz o trabalho, vem a parte que quase ninguém faz: treinar. Nêo peça uma vez só. Peça cinco, dez vezes, avalie como avaliaria um funcionário, junte as correções numa lista e rode em ciclo até ele corrigir tudo. Gasta mais tempo e mais uso, mas no fim você tem um procedimento padrêo escrito que serve para qualquer agente.",
+  "objetivo": "rodar a mesma tarefa em ciclo, juntar as correções numa lista e fechar um procedimento padrêo escrito.",
   "competencias": [
     "avaliar-saidas-do-agente",
     "escrever-lista-de-correcoes",
@@ -19,11 +19,11 @@
     },
     {
       "icone": "lista",
-      "t": "Da avaliação à lista de correções"
+      "t": "Da avaliaçêo à lista de correções"
     },
     {
       "icone": "arquivo",
-      "t": "O procedimento padrão escrito"
+      "t": "O procedimento padrêo escrito"
     },
     {
       "icone": "chip",
@@ -63,7 +63,7 @@
               "t": "contra o exemplo"
             }
           ],
-          "detalhe": "Olhe todos os resultados com o critério da ficha e compare com o seu exemplo. Anote por rodada: \"na tarefa A não gostei disso, na B faltou aquilo\"."
+          "detalhe": "Olhe todos os resultados com o critério da ficha e compare com o seu exemplo. Anote por rodada: \"na tarefa A nêo gostei disso, na B faltou aquilo\"."
         },
         {
           "icone": "lista",
@@ -77,7 +77,7 @@
               "t": "uma linha cada"
             }
           ],
-          "detalhe": "Junte as anotações numa lista única, sem repetição, do mais grave para o menos grave. É ela que você entrega ao agente, e não um desabafo solto."
+          "detalhe": "Junte as anotações numa lista única, sem repetiçêo, do mais grave para o menos grave. É ela que você entrega ao agente, e nêo um desabafo solto."
         },
         {
           "icone": "check",
@@ -96,22 +96,22 @@
         {
           "icone": "arquivo",
           "titulo": "Procedimento",
-          "sub": "padrão escrito",
+          "sub": "padrêo escrito",
           "forte": true,
           "itens": [
             {
               "t": "serve para qualquer agente"
             }
           ],
-          "detalhe": "Com a lista zerada, peça ao agente que escreva o procedimento padrão (um texto simples): os passos, as regras que nasceram das correções e o teste final. Ele vale para os próximos anos e para qualquer agente."
+          "detalhe": "Com a lista zerada, peça ao agente que escreva o procedimento padrêo (um texto simples): os passos, as regras que nasceram das correções e o teste final. Ele vale para os próximos anos e para qualquer agente."
         }
       ],
       "volta": "Falhou alguma rodada? A falha volta para a lista e o ciclo recomeça",
-      "legenda": "No meu caso (Nei, do ARCKHÉ), boa parte do dia é assim: delego, dou retorno, e cada correção vira regra escrita. De certo modo, eu treino o agente tanto quanto ele me treina.",
+      "legenda": "No meu caso (Nei, do ARCKHÉ), boa parte do dia é assim: delego, dou retorno, e cada correçêo vira regra escrita. De certo modo, eu treino o agente tanto quanto ele me treina.",
       "rolagem": true,
       "rolagem_fim": {
         "titulo": "O treino inteiro",
-        "texto": "Rodar várias vezes, avaliar, listar, corrigir em ciclo até zerar e escrever o procedimento. O mesmo erro não volta."
+        "texto": "Rodar várias vezes, avaliar, listar, corrigir em ciclo até zerar e escrever o procedimento. O mesmo erro nêo volta."
       }
     },
     {
@@ -123,17 +123,17 @@
           "titulo": "No chat",
           "sub": "onde fica cada coisa",
           "texto": [
-            "Cada rodada numa conversa nova do mesmo projeto: assim uma rodada não contamina a outra.",
+            "Cada rodada numa conversa nova do mesmo projeto: assim uma rodada nêo contamina a outra.",
             "A lista de correções vai para as instruções do projeto antes da rodada seguinte. Conversa nova sem a lista nas instruções esquece tudo."
           ],
           "exemplo": {
             "rot": "No terminal",
-            "texto": "A lista vai no AGENTS.md (ou num arquivo citado nele) e cada rodada é uma sessão nova."
+            "texto": "A lista vai no AGENTS.md (ou num arquivo citado nele) e cada rodada é uma sessêo nova."
           }
         },
         {
           "titulo": "Entradas variadas",
-          "sub": "não a mesma",
+          "sub": "nêo a mesma",
           "texto": [
             "Use casos diferentes em cada rodada: um fácil, um difícil, um esquisito.",
             "Rodar cinco vezes o mesmo caso só mede a sorte."
@@ -145,22 +145,22 @@
         },
         {
           "titulo": "Avaliar tudo",
-          "sub": "não só o pior",
+          "sub": "nêo só o pior",
           "texto": [
             "Anote também o que saiu bom: é isso que entra no procedimento como \"faça assim\".",
-            "Sem o que deu certo, a lista vira só proibição."
+            "Sem o que deu certo, a lista vira só proibiçêo."
           ],
           "exemplo": {
-            "rot": "Anotação",
+            "rot": "Anotaçêo",
             "texto": "Rodada 3: abertura ótima, guardar. Faltou a data de início."
           }
         },
         {
-          "titulo": "Uma correção por linha",
+          "titulo": "Uma correçêo por linha",
           "sub": "verificável",
           "texto": [
             "Cada linha da lista diz o que mudar de um jeito que dá para conferir.",
-            "\"Ficou estranho\" não ajuda; \"a data vem na primeira frase\" ajuda."
+            "\"Ficou estranho\" nêo ajuda; \"a data vem na primeira frase\" ajuda."
           ],
           "exemplo": {
             "rot": "Linha boa",
@@ -172,7 +172,7 @@
           "sub": "de graça",
           "texto": [
             "Quando sai um modelo novo, o seu funcionário fica mais inteligente de graça. Guarde a lista de tarefas que ele faz sempre.",
-            "Rode o procedimento no modelo novo, compare qualidade e custo e decida com o resultado na mão."
+            "Rode o procedimento no modelo novo, compare qualidade e custo e decida com o resultado na mêo."
           ],
           "exemplo": {
             "rot": "Teste",
@@ -187,9 +187,9 @@
       "sub": "Copie e use. Troque o texto entre < > pelo seu.",
       "blocos": [
         {
-          "rot": "Avaliação (documento ou planilha)",
+          "rot": "Avaliaçêo (documento ou planilha)",
           "icone": "lupa",
-          "conteudo": "# Avaliação · <tarefa> · <data>\nCritério: a Medida da ficha + o exemplo de referência\n\n| rodada | entrada | passou na Medida? | o que ficou bom | o que corrigir |\n|---|---|---|---|---|\n| 1 | <caso> | sim / não | | |\n| 2 | | | | |\n| 3 | | | | |\n| 4 | | | | |\n| 5 | | | | |"
+          "conteudo": "# Avaliaçêo · <tarefa> · <data>\nCritério: a Medida da ficha + o exemplo de referência\n\n| rodada | entrada | passou na Medida? | o que ficou bom | o que corrigir |\n|---|---|---|---|---|\n| 1 | <caso> | sim / nêo | | |\n| 2 | | | | |\n| 3 | | | | |\n| 4 | | | | |\n| 5 | | | | |"
         },
         {
           "rot": "Pedido: rodar de novo depois de colar a lista nas instruções",
@@ -197,9 +197,9 @@
           "conteudo": "A lista de correções está nas instruções do projeto, da mais grave para a menos grave.\nFaça esta tarefa seguindo a lista: <a entrada desta rodada>\nAo terminar, diga quais itens da lista você conferiu e como."
         },
         {
-          "rot": "Pedido: escrever o procedimento padrão",
+          "rot": "Pedido: escrever o procedimento padrêo",
           "icone": "arquivo",
-          "conteudo": "A lista zerou nas 5 rodadas. Escreva o procedimento padrão desta tarefa (um texto simples, que eu vou guardar) com:\n- quando usar e o que entrega;\n- os passos, na ordem;\n- as regras que nasceram das correções (uma por linha);\n- o teste final: como conferir pela Medida antes de entregar.\nUse linguagem que outro agente, ou outra pessoa, entenda sem me perguntar."
+          "conteudo": "A lista zerou nas 5 rodadas. Escreva o procedimento padrêo desta tarefa (um texto simples, que eu vou guardar) com:\n- quando usar e o que entrega;\n- os passos, na ordem;\n- as regras que nasceram das correções (uma por linha);\n- o teste final: como conferir pela Medida antes de entregar.\nUse linguagem que outro agente, ou outra pessoa, entenda sem me perguntar."
         }
       ],
       "saida": {
@@ -211,7 +211,7 @@
           },
           {
             "rot": "Erros comuns",
-            "html": "<ul><li><b>Uma rodada e pronto</b>: o erro que aparece 1 vez em 5 fica escondido até o dia que importa.</li><li><b>Correção solta no chat</b>: some na próxima conversa. Vai para a lista e depois para o procedimento.</li><li><b>Procedimento escrito por você antes do ciclo</b>: ele nasce do que as rodadas mostraram, não do que você imaginou.</li></ul>"
+            "html": "<ul><li><b>Uma rodada e pronto</b>: o erro que aparece 1 vez em 5 fica escondido até o dia que importa.</li><li><b>Correçêo solta no chat</b>: some na próxima conversa. Vai para a lista e depois para o procedimento.</li><li><b>Procedimento escrito por você antes do ciclo</b>: ele nasce do que as rodadas mostraram, nêo do que você imaginou.</li></ul>"
           }
         ]
       }
@@ -225,14 +225,14 @@
           "id": "e1",
           "titulo": "E1 · Cinco rodadas",
           "min": "40 min",
-          "texto": "Rode a tarefa da sua ficha cinco vezes, cada uma numa conversa nova do projeto e com uma entrada diferente, e preencha a avaliação (documento ou planilha).",
-          "pronto": "a tabela tem cinco linhas preenchidas, com \"sim\" ou \"não\" na coluna da Medida."
+          "texto": "Rode a tarefa da sua ficha cinco vezes, cada uma numa conversa nova do projeto e com uma entrada diferente, e preencha a avaliaçêo (documento ou planilha).",
+          "pronto": "a tabela tem cinco linhas preenchidas, com \"sim\" ou \"nêo\" na coluna da Medida."
         },
         {
           "id": "e2",
           "titulo": "E2 · A lista de correções",
           "min": "15 min",
-          "texto": "Junte o que corrigir numa lista única, uma correção verificável por linha.",
+          "texto": "Junte o que corrigir numa lista única, uma correçêo verificável por linha.",
           "pronto": "a lista tem pelo menos três correções, cada uma dá para conferir olhando o resultado."
         },
         {
@@ -247,7 +247,7 @@
           "id": "e4",
           "titulo": "E4 · O procedimento",
           "min": "15 min",
-          "texto": "Peça o procedimento padrão e guarde junto da ficha (no chat, nas instruções ou como arquivo do projeto; no terminal, na pasta).",
+          "texto": "Peça o procedimento padrêo e guarde junto da ficha (no chat, nas instruções ou como arquivo do projeto; no terminal, na pasta).",
           "pronto": "o arquivo existe e tem as regras que nasceram das correções e o teste final."
         }
       ]
@@ -261,7 +261,7 @@
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
           "p": "Por que rodar a mesma tarefa cinco a dez vezes?",
@@ -272,7 +272,7 @@
             "Porque uma rodada só pode ser sorte ou azar; várias mostram o que ele faz sempre."
           ],
           "certa": 3,
-          "explica": "O erro que aparece 1 vez em 5 só se vê com várias rodadas. O agente não aprende sozinho entre elas: quem melhora é a lista que você entrega.",
+          "explica": "O erro que aparece 1 vez em 5 só se vê com várias rodadas. O agente nêo aprende sozinho entre elas: quem melhora é a lista que você entrega.",
           "cert": true,
           "ref": "diagrama"
         },
@@ -282,10 +282,10 @@
             "Ficou estranho.",
             "A data de início aparece na primeira frase.",
             "Capricha mais da próxima vez.",
-            "Não gostei do tom."
+            "Nêo gostei do tom."
           ],
           "certa": 1,
-          "explica": "Dá para olhar o resultado e conferir. As outras são opinião sem critério: o agente não sabe o que mudar.",
+          "explica": "Dá para olhar o resultado e conferir. As outras sêo opiniêo sem critério: o agente nêo sabe o que mudar.",
           "ref": "passos"
         },
         {
@@ -297,7 +297,7 @@
             "Reescrever todos os prompts do zero."
           ],
           "certa": 0,
-          "explica": "Com a lista de tarefas e o procedimento guardados, a troca vira teste: mesmas entradas, lado a lado, qualidade e custo na mão.",
+          "explica": "Com a lista de tarefas e o procedimento guardados, a troca vira teste: mesmas entradas, lado a lado, qualidade e custo na mêo.",
           "ref": "passos"
         }
       ]
@@ -315,7 +315,7 @@
           "texto": "Correções verificáveis, uma por linha, aplicadas em ciclo até zerar."
         },
         {
-          "t": "Procedimento padrão",
+          "t": "Procedimento padrêo",
           "texto": "O resultado do treino é um texto que serve para qualquer agente e qualquer modelo novo."
         }
       ]

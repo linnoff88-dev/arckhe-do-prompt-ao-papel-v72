@@ -5,8 +5,8 @@
   "titulo": "A era do contexto: a IA sabe antes de você pedir",
   "titulo_curto": "A base de contexto",
   "minutos": 15,
-  "lead": "Quando a IA já sabe quem você é, quais são as regras da casa e o que deu errado da última vez, o pedido cabe numa linha. Essa base não se monta a cada conversa: fica num lugar que a IA lê sozinha antes de começar. É o que separa repetir tudo toda vez de ter alguém que já conhece o trabalho.",
-  "objetivo": "montar a base de contexto que o agente lê antes de qualquer pedido, com regras e uma lição de um erro real.",
+  "lead": "Quando a IA já sabe quem você é, quais sêo as regras da casa e o que deu errado da última vez, o pedido cabe numa linha. Essa base nêo se monta a cada conversa: fica num lugar que a IA lê sozinha antes de começar. É o que separa repetir tudo toda vez de ter alguém que já conhece o trabalho.",
+  "objetivo": "montar a base de contexto que o agente lê antes de qualquer pedido, com regras e uma liçêo de um erro real.",
   "competencias": [
     "montar-base-de-contexto",
     "escrever-regras-do-projeto",
@@ -23,7 +23,7 @@
     },
     {
       "icone": "memoria",
-      "t": "Transformar erro em lição escrita"
+      "t": "Transformar erro em liçêo escrita"
     },
     {
       "icone": "check",
@@ -69,7 +69,7 @@
               "t": "a data"
             }
           ],
-          "detalhe": "Toda vez que algo dá errado, uma linha nova no topo da lista: o que aconteceu e a regra que evita repetir. No meu caso (Nei, do ARCKHÉ), é assim: o mesmo erro não volta, porque a correção vira regra escrita."
+          "detalhe": "Toda vez que algo dá errado, uma linha nova no topo da lista: o que aconteceu e a regra que evita repetir. No meu caso (Nei, do ARCKHÉ), é assim: o mesmo erro nêo volta, porque a correçêo vira regra escrita."
         },
         {
           "icone": "chat",
@@ -83,7 +83,7 @@
               "t": "o que já foi tentado"
             }
           ],
-          "detalhe": "O que você já decidiu com a IA não deveria ser perguntado de novo. No chat, ligue a memória do ChatGPT ou do Claude nas configurações e mantenha o assunto dentro do mesmo projeto. No terminal, guarde os registros das sessões numa pasta que o agente consegue buscar."
+          "detalhe": "O que você já decidiu com a IA nêo deveria ser perguntado de novo. No chat, ligue a memória do ChatGPT ou do Claude nas configurações e mantenha o assunto dentro do mesmo projeto. No terminal, guarde os registros das sessões numa pasta que o agente consegue buscar."
         },
         {
           "icone": "git",
@@ -109,15 +109,15 @@
               "t": "pedido de uma linha"
             }
           ],
-          "detalhe": "Com as quatro fontes no lugar, o pedido fica curto e o agente entende de onde ele veio e por quê. Você não monta o contexto do zero a cada vez."
+          "detalhe": "Com as quatro fontes no lugar, o pedido fica curto e o agente entende de onde ele veio e por quê. Você nêo monta o contexto do zero a cada vez."
         }
       ],
       "volta": "Cada erro novo vira uma linha nas lições, e a base melhora sozinha com o uso",
-      "legenda": "Contexto bom tem casa própria: mora num arquivo ou pasta, não no texto do pedido.",
+      "legenda": "Contexto bom tem casa própria: mora num arquivo ou pasta, nêo no texto do pedido.",
       "rolagem": true,
       "rolagem_fim": {
         "titulo": "A base inteira",
-        "texto": "Regras, lições, histórico e arquivos chegam ao agente antes do pedido. Cada erro vira lição, e a próxima tarefa já começa melhor."
+        "texto": "Regras, lições, histórico e arquivos chegam ao agente antes do pedido. Cada erro vira liçêo, e a próxima tarefa já começa melhor."
       }
     },
     {
@@ -130,11 +130,11 @@
           "sub": "onde mora",
           "texto": [
             "No chat: crie um projeto (ChatGPT ou Claude) ou um Gem (Gemini), escreva as regras nas instruções dele e envie os arquivos de referência.",
-            "No terminal, com Claude Code ou Codex (agentes que trabalham numa pasta do seu computador), as regras vão num arquivo da pasta chamado AGENTS.md ou CLAUDE.md. É só o nome do arquivo de regras."
+            "No terminal, com Claude Code ou Codex (agentes que trabalham numa pasta do seu computador), as regras vêo num arquivo da pasta chamado AGENTS.md ou CLAUDE.md. É só o nome do arquivo de regras."
           ],
           "exemplo": {
             "rot": "Exemplo",
-            "texto": "Projeto \"Comunicação da escola\" com instruções próprias."
+            "texto": "Projeto \"Comunicaçêo da escola\" com instruções próprias."
           }
         },
         {
@@ -153,20 +153,20 @@
           "titulo": "Lições",
           "sub": "uma por erro",
           "texto": [
-            "Quando a IA errar, não corrija só aquela resposta: escreva a lição no topo da lista, com a data.",
+            "Quando a IA errar, nêo corrija só aquela resposta: escreva a liçêo no topo da lista, com a data.",
             "Uma linha: o que aconteceu e a regra que evita."
           ],
           "exemplo": {
-            "rot": "Lição",
+            "rot": "Liçêo",
             "texto": "Comunicado saiu sem a data de início: toda mudança cita o dia em que começa. (24/10)"
           }
         },
         {
           "titulo": "Testar",
-          "sub": "sessão nova",
+          "sub": "sessêo nova",
           "texto": [
-            "Abra uma conversa nova, faça um pedido curto e veja se a regra e a lição foram seguidas sem você lembrar.",
-            "Se não foram, a regra está escondida ou vaga: suba para o topo e escreva de um jeito que dá para conferir."
+            "Abra uma conversa nova, faça um pedido curto e veja se a regra e a liçêo foram seguidas sem você lembrar.",
+            "Se nêo foram, a regra está escondida ou vaga: suba para o topo e escreva de um jeito que dá para conferir."
           ],
           "exemplo": {
             "rot": "Pedido curto",
@@ -188,7 +188,7 @@
         {
           "rot": "Pedido quando a IA errar",
           "icone": "memoria",
-          "conteudo": "Você errou isto: <o que aconteceu>.\nAntes de corrigir, escreva a lição em UMA linha, neste formato:\n<data> · <o que deu errado> → <a regra que evita>.\nDepois refaça o trabalho seguindo a regra nova e me mostre as duas coisas."
+          "conteudo": "Você errou isto: <o que aconteceu>.\nAntes de corrigir, escreva a liçêo em UMA linha, neste formato:\n<data> · <o que deu errado> → <a regra que evita>.\nDepois refaça o trabalho seguindo a regra nova e me mostre as duas coisas."
         },
         {
           "rot": "Primeira linha de toda tarefa",
@@ -200,16 +200,16 @@
         "selo": "simulacao",
         "abas": [
           {
-            "rot": "Onde a lição vai",
-            "html": "<ul><li><b>No chat</b>: a IA escreve a linha; você copia e cola no topo da seção Lições das instruções do projeto.</li><li><b>No terminal</b>: peça que ele grave a linha no AGENTS.md (ou CLAUDE.md) e confira o arquivo.</li></ul>"
+            "rot": "Onde a liçêo vai",
+            "html": "<ul><li><b>No chat</b>: a IA escreve a linha; você copia e cola no topo da seçêo Lições das instruções do projeto.</li><li><b>No terminal</b>: peça que ele grave a linha no AGENTS.md (ou CLAUDE.md) e confira o arquivo.</li></ul>"
           },
           {
             "rot": "Como conferir",
-            "html": "<ol><li>O arquivo de regras existe e tem pelo menos cinco regras suas.</li><li>Há pelo menos uma lição tirada de um erro real, com data.</li><li>Numa conversa nova, um pedido de uma linha saiu seguindo a regra e a lição.</li></ol>"
+            "html": "<ol><li>O arquivo de regras existe e tem pelo menos cinco regras suas.</li><li>Há pelo menos uma liçêo tirada de um erro real, com data.</li><li>Numa conversa nova, um pedido de uma linha saiu seguindo a regra e a liçêo.</li></ol>"
           },
           {
             "rot": "Erros comuns",
-            "html": "<ul><li><b>Regra vaga</b> (\"seja profissional\"): ninguém consegue conferir. Escreva o que dá para ver no resultado.</li><li><b>Corrigir só a resposta</b>: o erro volta amanhã. A correção tem de virar lição escrita.</li><li><b>Senha ou chave no arquivo de regras</b>: tudo o que está em texto pode vazar. Chave fica fora.</li></ul>"
+            "html": "<ul><li><b>Regra vaga</b> (\"seja profissional\"): ninguém consegue conferir. Escreva o que dá para ver no resultado.</li><li><b>Corrigir só a resposta</b>: o erro volta amanhê. A correçêo tem de virar liçêo escrita.</li><li><b>Senha ou chave no arquivo de regras</b>: tudo o que está em texto pode vazar. Chave fica fora.</li></ul>"
           }
         ]
       }
@@ -228,35 +228,35 @@
         },
         {
           "id": "e2",
-          "titulo": "E2 · A primeira lição",
+          "titulo": "E2 · A primeira liçêo",
           "min": "15 min",
-          "texto": "Peça uma tarefa, ache um erro (sempre tem), use o pedido \"quando a IA errar\" e cole a lição nas instruções do projeto (no terminal, ele grava no AGENTS.md).",
-          "pronto": "a seção Lições tem uma linha com data, o erro e a regra que evita."
+          "texto": "Peça uma tarefa, ache um erro (sempre tem), use o pedido \"quando a IA errar\" e cole a liçêo nas instruções do projeto (no terminal, ele grava no AGENTS.md).",
+          "pronto": "a seçêo Lições tem uma linha com data, o erro e a regra que evita."
         },
         {
           "id": "e3",
-          "titulo": "E3 · O teste da sessão nova",
+          "titulo": "E3 · O teste da sessêo nova",
           "min": "10 min",
           "texto": "Abra uma conversa nova e faça um pedido de uma linha do mesmo tipo.",
-          "pronto": "o resultado seguiu a regra e a lição sem você repetir nenhuma das duas no pedido."
+          "pronto": "o resultado seguiu a regra e a liçêo sem você repetir nenhuma das duas no pedido."
         }
       ]
     },
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
-          "p": "A IA esqueceu a data no comunicado. O que fazer para o erro não voltar?",
+          "p": "A IA esqueceu a data no comunicado. O que fazer para o erro nêo voltar?",
           "opcoes": [
             "Corrigir só aquela resposta e seguir.",
             "Escrever o pedido mais longo da próxima vez.",
             "Trocar de modelo de IA.",
-            "Escrever a lição numa linha no topo da lista, com a regra que evita."
+            "Escrever a liçêo numa linha no topo da lista, com a regra que evita."
           ],
           "certa": 3,
-          "explica": "Corrigir só a resposta resolve hoje. A lição escrita entra no contexto de toda tarefa seguinte, e o mesmo erro não volta.",
+          "explica": "Corrigir só a resposta resolve hoje. A liçêo escrita entra no contexto de toda tarefa seguinte, e o mesmo erro nêo volta.",
           "cert": true,
           "ref": "passos"
         },
@@ -278,7 +278,7 @@
             "Porque o pedido precisa ser o mais longo possível.",
             "Porque assim ele é lido em toda tarefa, sem você repetir a cada conversa.",
             "Porque só funciona no terminal.",
-            "Porque a IA não lê com atenção o que está no pedido, só o que está guardado em arquivo."
+            "Porque a IA nêo lê com atençêo o que está no pedido, só o que está guardado em arquivo."
           ],
           "certa": 1,
           "explica": "Num arquivo ou nas instruções do projeto, o contexto chega antes de todo pedido. Repetido no pedido, ele some na próxima conversa.",
@@ -295,11 +295,11 @@
           "texto": "Regras do projeto, lições, histórico e arquivos chegam ao agente antes do pedido."
         },
         {
-          "t": "Erro vira lição",
-          "texto": "Toda correção vira uma linha escrita, e o mesmo erro não volta."
+          "t": "Erro vira liçêo",
+          "texto": "Toda correçêo vira uma linha escrita, e o mesmo erro nêo volta."
         },
         {
-          "t": "Teste na sessão nova",
+          "t": "Teste na sessêo nova",
           "texto": "A base funciona quando um pedido de uma linha já sai certo."
         }
       ]
@@ -309,7 +309,7 @@
       "titulo": "Para ir além",
       "links": [
         {
-          "t": "FEC: Formação de Engenharia de Contexto",
+          "t": "FEC: Formaçêo de Engenharia de Contexto",
           "href": "https://linnoff88-dev.github.io/
           "icone": "camadas"
         },

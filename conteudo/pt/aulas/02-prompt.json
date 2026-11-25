@@ -5,7 +5,7 @@
   "titulo": "A era do prompt: o que morreu e o que ficou",
   "titulo_curto": "O que ficou do prompt",
   "minutos": 14,
-  "lead": "Boa parte das técnicas de prompt nasceu para compensar modelos fracos: mandar pensar passo a passo, inventar uma persona de 30 linhas, listar tudo o que não pode. Os modelos de hoje fazem isso sozinhos. Outras técnicas continuam valendo, mas só em certas condições. E algumas nunca envelhecem. Separar uma coisa da outra deixa o seu pedido menor e melhor.",
+  "lead": "Boa parte das técnicas de prompt nasceu para compensar modelos fracos: mandar pensar passo a passo, inventar uma persona de 30 linhas, listar tudo o que nêo pode. Os modelos de hoje fazem isso sozinhos. Outras técnicas continuam valendo, mas só em certas condições. E algumas nunca envelhecem. Separar uma coisa da outra deixa o seu pedido menor e melhor.",
   "objetivo": "cortar de um prompt antigo seu o que o modelo de hoje já faz sozinho, sem piorar o resultado.",
   "competencias": [
     "auditar-prompt",
@@ -23,14 +23,14 @@
     },
     {
       "icone": "check",
-      "t": "O núcleo que não envelhece"
+      "t": "O núcleo que nêo envelhece"
     },
     {
       "icone": "caneta",
-      "t": "Auditar um prompt por subtração"
+      "t": "Auditar um prompt por subtraçêo"
     }
   ],
-  "hero_alt": "Mão com uma caneta sobre um caderno cheio de linhas riscadas, com papéis amassados em volta.",
+  "hero_alt": "Mêo com uma caneta sobre um caderno cheio de linhas riscadas, com papéis amassados em volta.",
   "secoes": [
     {
       "tipo": "diagrama",
@@ -49,18 +49,18 @@
               "t": "persona de 30 linhas"
             },
             {
-              "t": "lista longa de \"não faça\""
+              "t": "lista longa de \"nêo faça\""
             },
             {
               "t": "cadeia manual de prompts (pesquisa → roteiro → texto, um por vez)"
             }
           ],
-          "detalhe": "Os modelos atuais raciocinam antes de responder e encadeiam etapas sozinhos. \"Você é o melhor redator do mundo\" não muda o resultado. Listas de \"não faça\" competem entre si e enchem o espaço da conversa. Essas instruções não acrescentam e às vezes pioram."
+          "detalhe": "Os modelos atuais raciocinam antes de responder e encadeiam etapas sozinhos. \"Você é o melhor redator do mundo\" nêo muda o resultado. Listas de \"nêo faça\" competem entre si e enchem o espaço da conversa. Essas instruções nêo acrescentam e às vezes pioram."
         },
         {
           "icone": "relogio",
           "titulo": "Só quando serve",
-          "sub": "com condição",
+          "sub": "com condiçêo",
           "itens": [
             {
               "t": "exemplos prontos no pedido (few-shot)"
@@ -72,10 +72,10 @@
               "t": "saída em JSON (dados para outro programa)"
             },
             {
-              "t": "etapas com aprovação"
+              "t": "etapas com aprovaçêo"
             }
           ],
-          "detalhe": "Exemplos servem quando o estilo é difícil de descrever. Papel serve quando define perspectiva e critério (\"avalie como um auditor que procura o que falta\"), não título de prestígio. JSON serve quando o resultado vai para outro programa. Etapas servem quando você aprova entre uma e outra."
+          "detalhe": "Exemplos servem quando o estilo é difícil de descrever. Papel serve quando define perspectiva e critério (\"avalie como um auditor que procura o que falta\"), nêo título de prestígio. JSON serve quando o resultado vai para outro programa. Etapas servem quando você aprova entre uma e outra."
         },
         {
           "icone": "check",
@@ -96,26 +96,26 @@
               "t": "fronteiras"
             }
           ],
-          "detalhe": "O que descreve o destino não envelhece: o que deve acontecer, para quem, em que formato, o que nunca pode acontecer no seu negócio. A clareza muda de lugar: sai do procedimento (como fazer) e vai para o resultado (o que é bom)."
+          "detalhe": "O que descreve o destino nêo envelhece: o que deve acontecer, para quem, em que formato, o que nunca pode acontecer no seu negócio. A clareza muda de lugar: sai do procedimento (como fazer) e vai para o resultado (o que é bom)."
         }
       ],
       "legenda": "Muleta compensava o modelo de ontem. Destino diz o que você quer, e vale para qualquer modelo.",
-      "dica": "\"Papel\" aqui não é a engenharia de papel da aula 4: lá o papel é uma função inteira, com objetivo, contexto e exemplo."
+      "dica": "\"Papel\" aqui nêo é a engenharia de papel da aula 4: lá o papel é uma funçêo inteira, com objetivo, contexto e exemplo."
     },
     {
       "tipo": "passos",
-      "titulo": "Auditoria por subtração",
+      "titulo": "Auditoria por subtraçêo",
       "sub": "Quatro passos para enxugar um prompt antigo. Toque ou clique em cada um.",
       "passos": [
         {
           "titulo": "Separar",
           "sub": "linha por linha",
           "texto": [
-            "Pegue um prompt que você usa há tempo e quebre em linhas, uma instrução por linha.",
+            "Pegue um prompt que você usa há tempo e quebre em linhas, uma instruçêo por linha.",
             "Marque cada linha: muleta, só quando serve ou destino."
           ],
           "exemplo": {
-            "rot": "Marcação",
+            "rot": "Marcaçêo",
             "texto": "\"Pense passo a passo\" → muleta. \"Para pais de alunos do 5º ano\" → destino."
           }
         },
@@ -123,8 +123,8 @@
           "titulo": "Cortar",
           "sub": "as muletas",
           "texto": [
-            "Apague as muletas. Nas linhas \"só quando serve\", confira se a condição vale para este caso; se não vale, apague também.",
-            "Não mexa ainda nas linhas de destino."
+            "Apague as muletas. Nas linhas \"só quando serve\", confira se a condiçêo vale para este caso; se nêo vale, apague também.",
+            "Nêo mexa ainda nas linhas de destino."
           ],
           "exemplo": {
             "rot": "Sai",
@@ -136,7 +136,7 @@
           "sub": "o destino",
           "texto": [
             "Agora veja o que falta no destino: o resultado esperado, para quem é, o formato, a fronteira e o critério de bom.",
-            "Muitas vezes o prompt antigo era longo e mesmo assim não dizia o que é um bom resultado."
+            "Muitas vezes o prompt antigo era longo e mesmo assim nêo dizia o que é um bom resultado."
           ],
           "exemplo": {
             "rot": "Entra",
@@ -148,11 +148,11 @@
           "sub": "antes e depois",
           "texto": [
             "Rode as duas versões com a mesma entrada, duas vezes cada, e compare os resultados lado a lado.",
-            "Se a versão curta ficou igual ou melhor, ela fica. Se piorou, volte só a linha que fez falta."
+            "Se a versêo curta ficou igual ou melhor, ela fica. Se piorou, volte só a linha que fez falta."
           ],
           "exemplo": {
             "rot": "Registro",
-            "texto": "Versão antiga: 11 linhas. Nova: 5 linhas. Rodei duas vezes: nas duas a versão curta ficou igual, e numa delas mais direta."
+            "texto": "Versêo antiga: 11 linhas. Nova: 5 linhas. Rodei duas vezes: nas duas a versêo curta ficou igual, e numa delas mais direta."
           }
         }
       ]
@@ -165,17 +165,17 @@
         {
           "rot": "Antes · prompt antigo (11 linhas)",
           "icone": "x",
-          "conteudo": "Você é um redator premiado com 20 anos de experiência em educação.\nPense passo a passo antes de responder.\nEscreva um comunicado para os pais sobre a mudança de horário.\nNão use emojis.\nNão seja prolixo.\nNão use termos técnicos.\nNão use frases longas.\nNão esqueça a data.\nUse tom amigável.\nRevise o texto antes de entregar.\nDê o seu melhor."
+          "conteudo": "Você é um redator premiado com 20 anos de experiência em educaçêo.\nPense passo a passo antes de responder.\nEscreva um comunicado para os pais sobre a mudança de horário.\nNêo use emojis.\nNêo seja prolixo.\nNêo use termos técnicos.\nNêo use frases longas.\nNêo esqueça a data.\nUse tom amigável.\nRevise o texto antes de entregar.\nDê o seu melhor."
         },
         {
           "rot": "Depois · pedido auditado (5 linhas)",
           "icone": "check",
-          "conteudo": "Escreva o comunicado aos pais do 5º ano sobre a mudança de horário da saída.\nO que muda: a saída passa das 17h30 para as 17h, a partir de 3 de novembro.\nPara quem: pais que leem no celular, com pressa.\nFronteira: não prometa transporte; a escola não oferece.\nBom resultado: o pai entende em 30 segundos o que muda e desde quando."
+          "conteudo": "Escreva o comunicado aos pais do 5º ano sobre a mudança de horário da saída.\nO que muda: a saída passa das 17h30 para as 17h, a partir de 3 de novembro.\nPara quem: pais que leem no celular, com pressa.\nFronteira: nêo prometa transporte; a escola nêo oferece.\nBom resultado: o pai entende em 30 segundos o que muda e desde quando."
         },
         {
           "rot": "Pedido para a própria IA auditar",
           "icone": "lupa",
-          "conteudo": "Abaixo está um prompt que eu uso há tempo. Separe-o em linhas e marque cada uma como:\n- MULETA (compensava modelo antigo: \"pense passo a passo\", persona de prestígio, lista de \"não faça\" de estilo),\n- SÓ QUANDO SERVE (diga a condição e se ela vale aqui),\n- DESTINO (resultado, público, formato, fronteira, critério de bom).\nDepois escreva a versão enxuta e diga o que falta no destino.\n\n<cole aqui o seu prompt>"
+          "conteudo": "Abaixo está um prompt que eu uso há tempo. Separe-o em linhas e marque cada uma como:\n- MULETA (compensava modelo antigo: \"pense passo a passo\", persona de prestígio, lista de \"nêo faça\" de estilo),\n- SÓ QUANDO SERVE (diga a condiçêo e se ela vale aqui),\n- DESTINO (resultado, público, formato, fronteira, critério de bom).\nDepois escreva a versêo enxuta e diga o que falta no destino.\n\n<cole aqui o seu prompt>"
         }
       ],
       "saida": {
@@ -183,7 +183,7 @@
         "abas": [
           {
             "rot": "O que foi cortado",
-            "html": "<ul><li><b>Persona de prestígio</b> e \"dê o seu melhor\": não mudam o resultado.</li><li><b>\"Pense passo a passo\"</b> e \"revise antes\": o modelo já faz.</li><li><b>Cinco \"não\" de estilo</b>: viraram uma linha positiva, \"pais que leem no celular, com pressa\".</li></ul>"
+            "html": "<ul><li><b>Persona de prestígio</b> e \"dê o seu melhor\": nêo mudam o resultado.</li><li><b>\"Pense passo a passo\"</b> e \"revise antes\": o modelo já faz.</li><li><b>Cinco \"nêo\" de estilo</b>: viraram uma linha positiva, \"pais que leem no celular, com pressa\".</li></ul>"
           },
           {
             "rot": "O que entrou",
@@ -195,35 +195,35 @@
     {
       "tipo": "pratica",
       "titulo": "Prática: audite um prompt seu",
-      "sub": "Use um prompt que você usa de verdade, não o exemplo.",
+      "sub": "Use um prompt que você usa de verdade, nêo o exemplo.",
       "exercicios": [
         {
           "id": "e1",
           "titulo": "E1 · Marcar as linhas",
           "min": "15 min",
-          "texto": "Escolha o prompt que você mais reutiliza. Quebre em linhas e marque cada uma como muleta, só quando serve ou destino (à mão ou com o pedido de auditoria).",
+          "texto": "Escolha o prompt que você mais reutiliza. Quebre em linhas e marque cada uma como muleta, só quando serve ou destino (à mêo ou com o pedido de auditoria).",
           "pronto": "toda linha do prompt tem uma das três marcas."
         },
         {
           "id": "e2",
-          "titulo": "E2 · A versão enxuta",
+          "titulo": "E2 · A versêo enxuta",
           "min": "15 min",
           "texto": "Corte as muletas e complete o destino: resultado, público, formato, fronteira e critério de bom.",
-          "pronto": "a versão nova tem menos linhas que a antiga e tem uma linha que começa com \"Bom resultado:\"."
+          "pronto": "a versêo nova tem menos linhas que a antiga e tem uma linha que começa com \"Bom resultado:\"."
         },
         {
           "id": "e3",
           "titulo": "E3 · Antes e depois",
           "min": "20 min",
-          "texto": "Rode as duas versões com a mesma entrada, duas vezes cada, e anote a comparação.",
-          "pronto": "você tem os quatro resultados salvos e uma frase dizendo qual versão ficou e por quê."
+          "texto": "Rode as duas versões com a mesma entrada, duas vezes cada, e anote a comparaçêo.",
+          "pronto": "você tem os quatro resultados salvos e uma frase dizendo qual versêo ficou e por quê."
         }
       ]
     },
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
           "p": "Por que \"pense passo a passo\" perdeu força?",
@@ -234,7 +234,7 @@
             "Porque deixa a resposta curta demais e sem as explicações que o leitor espera."
           ],
           "certa": 0,
-          "explica": "Era uma muleta para modelos que não raciocinavam. Hoje o modelo já faz isso; a instrução não acrescenta e às vezes deixa a resposta mais longa sem ganho.",
+          "explica": "Era uma muleta para modelos que nêo raciocinavam. Hoje o modelo já faz isso; a instruçêo nêo acrescenta e às vezes deixa a resposta mais longa sem ganho.",
           "ref": "diagrama"
         },
         {
@@ -246,16 +246,16 @@
             "Nunca: papel é técnica morta."
           ],
           "certa": 1,
-          "explica": "Papel como título de prestígio não muda nada. Papel que diz de que ponto de vista olhar e o que julgar muda o resultado. Por isso ele está em \"só quando serve\".",
+          "explica": "Papel como título de prestígio nêo muda nada. Papel que diz de que ponto de vista olhar e o que julgar muda o resultado. Por isso ele está em \"só quando serve\".",
           "cert": true,
           "ref": "diagrama"
         },
         {
-          "p": "Na auditoria por subtração, o que vem depois de cortar as muletas?",
+          "p": "Na auditoria por subtraçêo, o que vem depois de cortar as muletas?",
           "opcoes": [
-            "Publicar a versão curta sem testar.",
+            "Publicar a versêo curta sem testar.",
             "Pedir à IA que escreva uma persona nova, mais detalhada, para compensar as linhas cortadas.",
-            "Juntar todos os \"não faça\" numa lista só.",
+            "Juntar todos os \"nêo faça\" numa lista só.",
             "Completar o destino e testar as duas versões com a mesma entrada."
           ],
           "certa": 3,
@@ -263,15 +263,15 @@
           "ref": "passos"
         },
         {
-          "p": "\"Não prometa transporte; a escola não oferece.\" Por que essa linha fica?",
+          "p": "\"Nêo prometa transporte; a escola nêo oferece.\" Por que essa linha fica?",
           "opcoes": [
-            "Porque toda lista de \"não faça\" ajuda o modelo a evitar erros, então quanto mais, melhor.",
+            "Porque toda lista de \"nêo faça\" ajuda o modelo a evitar erros, entêo quanto mais, melhor.",
             "Porque deixa o texto mais longo e completo.",
-            "Porque é uma fronteira do negócio, não uma regra de estilo.",
-            "Porque o modelo não entende frases positivas."
+            "Porque é uma fronteira do negócio, nêo uma regra de estilo.",
+            "Porque o modelo nêo entende frases positivas."
           ],
           "certa": 2,
-          "explica": "Instrução negativa fica quando é fronteira real (o que nunca pode acontecer). \"Não seja prolixo\" é estilo e vira uma frase positiva sobre o leitor.",
+          "explica": "Instruçêo negativa fica quando é fronteira real (o que nunca pode acontecer). \"Nêo seja prolixo\" é estilo e vira uma frase positiva sobre o leitor.",
           "ref": "codigo"
         }
       ]
@@ -282,7 +282,7 @@
       "itens": [
         {
           "t": "Muleta morre",
-          "texto": "O que compensava modelo fraco (passo a passo, persona de prestígio, lista de \"não\") pode sair."
+          "texto": "O que compensava modelo fraco (passo a passo, persona de prestígio, lista de \"nêo\") pode sair."
         },
         {
           "t": "Destino fica",
@@ -290,7 +290,7 @@
         },
         {
           "t": "Corte e teste",
-          "texto": "Versão enxuta só fica depois de rodar antes e depois com a mesma entrada."
+          "texto": "Versêo enxuta só fica depois de rodar antes e depois com a mesma entrada."
         }
       ]
     },
