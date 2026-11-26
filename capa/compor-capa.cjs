@@ -23,7 +23,7 @@ const html = (x) => `<!doctype html><html><head><meta charset="utf-8">
 .m{position:absolute;left:56px;bottom:44px;font:600 22px Inter;letter-spacing:.14em;color:#fff}.m i{color:#FACC15;font-style:normal}
 </style></head><body><div class="f"></div><div class="g"></div>
 <div class="c"><div class="k">${x.k}</div><div class="t">${x.t}</div><div class="a">${x.a}</div></div>
-<div class="m">INEMA<i>.</i>CLUB</div></body></html>`;
+<div class="m">ARCKHÉ<i>.</i>CLUB</div></body></html>`;
 (async () => {
   const b = await pw.chromium.launch(); const p = await b.newPage({ viewport: { width: 1200, height: 630 } });
   for (const [suf, x] of Object.entries(TXT)) {
